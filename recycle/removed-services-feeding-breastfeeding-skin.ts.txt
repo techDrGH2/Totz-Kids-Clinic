@@ -1,0 +1,168 @@
+﻿  {
+    slug: "feeding-problems",
+    title: "Feeding Problems",
+    navLabel: "Feeding problems",
+    description:
+      "Help for babies and children who struggle with feeds, weaning, or a limited diet.",
+    href: "/services/feeding-problems",
+    icon: "utensils",
+    eyebrow: "Feeding",
+    summary:
+      "Feeding problems, from a newborn who tires at the breast to a toddler who refuses meals, can be discussed at Tiny Totz Kids Clinic. Growth and hydration are part of the assessment.",
+    intro: [
+      "Feeding trouble is rarely only about food. It may be positioning, illness, a painful mouth, a limited diet, or a mealtime pattern that has become a battle.",
+      "The consultation looks at intake, growth, and how feeds actually happen at home. Advice is stepwise. For a baby who is too sleepy to feed or has very few wet nappies, do not wait overnight.",
+    ],
+    includes: [
+      "Breast, bottle, and mixed-feeding questions",
+      "Weaning and texture concerns",
+      "Refusal, gagging, and very selective eating",
+      "Growth check alongside the feeding history",
+      "When to review again or seek urgent care",
+    ],
+    concerns: [
+      "Feeds that are exhausting for the baby or parent",
+      "Coughing or distress with feeds",
+      "Falling off a previously steady weight pattern",
+      "Weaning that has stalled",
+      "A child who accepts only milk or only a few foods",
+    ],
+    whenToConsult: [
+      "Feeding has been difficult for more than a few days, or weight is a concern.",
+      "You want a plan before starting solids or changing milk.",
+      "Urgent care is safer if there is dehydration, green vomit, blood in stool, or a baby who cannot be woken to feed.",
+    ],
+    expect: sharedExpect(
+      "You may be asked to describe one real feed from start to finish. That detail is more useful than a general impression. Any change is kept realistic for your day.",
+    ),
+    faqs: [
+      {
+        question: "Can you help with feeding problems?",
+        answer:
+          "Yes. Breastfeeding, bottle feeding, weaning, and selective eating can be discussed in a paediatric consultation. The visit includes growth, not only a list of foods.",
+      },
+      {
+        question: "Is this the same as a lactation clinic?",
+        answer:
+          "Breastfeeding support is offered as part of the paediatric consultation. The clinic does not describe a separate lactation-consultant service.",
+      },
+    ],
+    whatsappMessage:
+      "Hello Tiny Totz Kids Clinic, I would like help with my childâ€™s feeding.",
+    related: ["breastfeeding-support", "newborn-care", "child-nutrition"],
+    seoTitle: "Child Feeding Problems in Puppalguda",
+    seoDescription:
+      "Paediatric help for breastfeeding, bottle feeding, weaning and selective eating at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+  },
+  {
+    slug: "breastfeeding-support",
+    title: "Breastfeeding Support",
+    navLabel: "Breastfeeding",
+    description:
+      "Paediatric support for latch, supply worries, painful feeds, and newborn weight while breastfeeding.",
+    href: "/services/breastfeeding-support",
+    icon: "milk",
+    eyebrow: "Newborn feeding",
+    summary:
+      "Breastfeeding support at Tiny Totz Kids Clinic is part of the paediatric consultation. Latch, pain, supply worries, and newborn weight can be discussed with Dr. Shilpa Reddy T.",
+    intro: [
+      "Breastfeeding questions are medical questions as well as practical ones. Pain, a baby who sleeps through feeds, or worry about milk supply deserve a proper look, not only advice from a group chat.",
+      "Support during the consultation may include feeding history, weight, and what to change over the next few days. The clinic does not claim a separate board-certified lactation service.",
+    ],
+    includes: [
+      "Discussion of latch, position, and feed length",
+      "Newborn weight and nappy output",
+      "Pain, engorgement, or concern about supply",
+      "Guidance when a top-up is being considered",
+      "A short-interval review when weight is a concern",
+    ],
+    concerns: [
+      "Pain that continues through the feed",
+      "A baby who is not waking to feed",
+      "Worry that milk is not enough",
+      "Slow weight gain in a breastfed newborn",
+      "Returning to work and wanting a plan",
+    ],
+    whenToConsult: [
+      "Feeds are painful, confusing, or not matching weight gain.",
+      "You want medical advice before stopping breastfeeding.",
+      "A baby who is listless, has a fever, or has very few wet nappies needs same-day medical care.",
+    ],
+    expect: sharedExpect(
+      "The feeding story and the babyâ€™s weight are reviewed together. If a change is suggested, you will know what to watch over the next day, not only over the next month.",
+    ),
+    faqs: [
+      {
+        question: "Do you provide breastfeeding support?",
+        answer:
+          "Yes, within the paediatric consultation. Latch, supply concerns, and newborn weight can be discussed. This is not described as a standalone lactation-consultant clinic.",
+      },
+      {
+        question: "Should I stop breastfeeding if weight is slow?",
+        answer:
+          "Do not decide that from a webpage. Slow weight gain needs an assessment. Some babies continue breastfeeding with a clear plan. Some need additional support. The visit is where that is decided.",
+      },
+    ],
+    whatsappMessage:
+      "Hello Tiny Totz Kids Clinic, I would like breastfeeding support for my newborn.",
+    related: ["newborn-care", "feeding-problems", "child-vaccination"],
+    seoTitle: "Breastfeeding Support in Puppalguda",
+    seoDescription:
+      "Breastfeeding support during paediatric consultations at Tiny Totz Kids Clinic in Puppalguda, including latch, supply concerns and newborn weight.",
+  },
+  {
+    slug: "childhood-skin-conditions",
+    title: "Childhood Skin Conditions",
+    navLabel: "Skin",
+    description:
+      "Assessment of common childhood rashes, dry skin, and itch, with guidance on when a rash is urgent.",
+    href: "/services/childhood-skin-conditions",
+    icon: "hand",
+    eyebrow: "Skin",
+    summary:
+      "Common childhood rashes, dry skin, and itch can be assessed at Tiny Totz Kids Clinic. A rash with fever and a very unwell child needs urgent care rather than a routine appointment.",
+    intro: [
+      "Childrenâ€™s skin changes often: dryness, insect bites, heat rash, and eczema-like patches. Parents want to know what is ordinary and what should be seen.",
+      "The consultation looks at the rash in context: itch, fever, medicines, and how widely it has spread. Creams are not listed here, because the wrong one can irritate skin further.",
+    ],
+    includes: [
+      "Examination of the rash or dry patches",
+      "Discussion of itch, triggers, and washing routines",
+      "Attention to infection or allergy clues",
+      "Practical skin-care guidance",
+      "Review if the skin is not settling",
+    ],
+    concerns: [
+      "Dry, itchy patches in elbow or knee creases",
+      "A new rash after a fever",
+      "Recurrent boils or infected scratches",
+      "Hives",
+      "A nappy rash that is not settling",
+    ],
+    whenToConsult: [
+      "A rash is spreading, painful, or stopping sleep.",
+      "You want a diagnosis rather than another over-the-counter cream.",
+      "Seek urgent care for a purple rash, swelling of the lips or tongue, widespread blistering, or a rash in a child who is limp or hard to wake.",
+    ],
+    expect: sharedExpect(
+      "The skin is examined in good light, including areas you may not have noticed. You will be told what the rash appears to be and what would make that impression change.",
+    ),
+    faqs: [
+      {
+        question: "Can a photo replace the visit?",
+        answer:
+          "A photo can help you remember a rash that has faded, but colour and texture are clearer in person. Book a visit if the skin problem is active or recurring.",
+      },
+      {
+        question: "Are steroid creams always required?",
+        answer:
+          "No. Some skin problems need only a change in care. If a medicated cream is appropriate, the reason and the way to use it are explained in clinic, not on this page.",
+      },
+    ],
+    whatsappMessage:
+      "Hello Tiny Totz Kids Clinic, I would like my childâ€™s skin rash reviewed.",
+    related: ["child-allergy-asthma", "common-childhood-illnesses", "newborn-care"],
+    seoTitle: "Childhood Skin Care in Puppalguda",
+    seoDescription:
+      "Paediatric assessment of childhood rashes, dry skin and itch at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+  },

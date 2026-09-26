@@ -1,0 +1,92 @@
+# Tiny Totz Kids Clinic - full site summary
+
+This file is a factual description of the public website. It does not add credentials, awards, hospital affiliations, review counts, or social profiles beyond what the clinic has published for the site.
+
+## Identity
+
+Tiny Totz Kids Clinic is a paediatric clinic in Puppalguda, Hyderabad, Telangana, India.
+
+Doctor: Dr. Shilpa Reddy T
+Qualifications published by the clinic: MBBS, DNB Pediatrics, IDPCCM
+Role: Consultant Paediatrician & Pediatric Intensivist
+The clinic states more than 12 years of paediatric experience. That figure is display copy in lib/clinic.ts and is not encoded as a review rating.
+
+The previous clinic website published a 5.0 Google rating and 80+ patient reviews. Those figures are shown as published profile numbers. They are not marked up as AggregateRating or Review structured data. Parent comments previously published on the clinic website are shown with the writer's name and the source "Published on the clinic website".
+
+## Location and contact
+
+2nd Floor, C Block, DNS Business Hub
+Opposite Alanati Restaurant
+Plus code: C928+935
+Puppalguda, Hyderabad, Telangana 500089, India
+
+Phone and WhatsApp: +91 7815933120
+Email: tinytotzkidsofficial@gmail.com
+Website: https://tinytotzclinic.com/
+
+Hours published by the clinic website: Monday-Saturday, 6:00 PM-9:00 PM. Sunday closed. Visitors are asked to confirm before travelling. A third-party directory has listed Monday-Friday only; the site follows the clinic's own published Monday-Saturday hours until the clinic changes lib/clinic.ts.
+
+There is one clinic. The site does not claim branches.
+
+## Who the clinic sees
+
+Newborns, infants, children and adolescents. Families living in Puppalguda, and families who travel from Manikonda, Lanco Hills, Khajaguda, Langer House, Narsingi, Kokapet, Financial District and Nanakramguda.
+
+Dedicated area pages exist only where the copy is specific:
+
+- https://tinytotzclinic.com/areas-we-serve/puppalguda
+- https://tinytotzclinic.com/areas-we-serve/manikonda
+- https://tinytotzclinic.com/areas-we-serve/lanco-hills
+- https://tinytotzclinic.com/areas-we-serve/khajaguda
+- https://tinytotzclinic.com/areas-we-serve/narsingi
+- https://tinytotzclinic.com/areas-we-serve/kokapet
+
+Langer House, Financial District and Nanakramguda are named on the areas page and are not given near-duplicate location URLs.
+
+## Services and URLs
+
+- Common childhood illnesses: https://tinytotzclinic.com/services/common-childhood-illnesses
+- Vaccination and immunisation: https://tinytotzclinic.com/vaccination
+- Newborn care: https://tinytotzclinic.com/newborn-care
+- Well-child visits: https://tinytotzclinic.com/services/well-child-visits
+- Nutrition and growth: https://tinytotzclinic.com/nutrition-growth
+- Allergies and asthma: https://tinytotzclinic.com/allergies-asthma
+- Weight and puberty concerns: https://tinytotzclinic.com/services/obesity-puberty
+- Developmental concerns: https://tinytotzclinic.com/developmental-care
+- Seizure evaluation (follow-up; active seizures need emergency care): https://tinytotzclinic.com/services/seizure-developmental-care
+- Child health overview: https://tinytotzclinic.com/child-health
+- Service index: https://tinytotzclinic.com/services
+
+Vaccination schedules are advised according to the child's age, health status and applicable pediatric recommendations. No fixed vaccine chart is published.
+
+## Other pages
+
+- Home: https://tinytotzclinic.com/
+- About: https://tinytotzclinic.com/about
+- Doctor: https://tinytotzclinic.com/doctor
+- FAQs: https://tinytotzclinic.com/faq
+- Blog: https://tinytotzclinic.com/blog
+- Gallery: https://tinytotzclinic.com/gallery
+- Contact: https://tinytotzclinic.com/contact
+- Appointment request: https://tinytotzclinic.com/appointment
+- Privacy: https://tinytotzclinic.com/privacy
+- Terms: https://tinytotzclinic.com/terms
+- Medical disclaimer: https://tinytotzclinic.com/medical-disclaimer
+
+## Booking
+
+The appointment form collects parent or guardian name, child's name, phone, optional email, preferred date, preferred time and a short reason. It does not confirm the booking by itself. If APPOINTMENT_WEBHOOK_URL is unset, the parent is asked to send the request on WhatsApp or call. Online booking is a request until the clinic confirms it.
+
+## Content limits
+
+The site does not claim to be the best clinic, does not promise cures, and does not list awards, publications, memberships or hospital affiliations. Blog posts are educational. A "medically reviewed by Dr. Shilpa Reddy T" line appears only when a review date is stored on that post. Current posts do not have that line.
+
+Photographs of the doctor and clinic are placeholders until real image files are added. See public/images/README.md.
+
+## Structured data on the site
+
+MedicalClinic, Physician, WebSite, WebPage, BreadcrumbList, FAQPage where a page has its own questions, and Article for blog posts. AggregateRating and Review entities are intentionally omitted.
+
+## Disclaimer
+
+Information on this website is provided for general educational purposes and does not replace professional medical consultation.

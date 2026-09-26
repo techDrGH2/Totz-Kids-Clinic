@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <title>Placeholder for the paediatric consultation room</title>
+  <rect width="1200" height="800" fill="#f6f0e8"/>
+  <rect x="100" y="140" width="1000" height="460" fill="#fffcfa" stroke="#d5e1e6" stroke-width="2"/>
+  <rect x="160" y="220" width="360" height="280" fill="#e7f3f1"/>
+  <rect x="580" y="260" width="420" height="16" fill="#0e3144"/>
+  <rect x="580" y="300" width="320" height="16" fill="#d5e1e6"/>
+  <rect x="580" y="340" width="360" height="16" fill="#d5e1e6"/>
+  <text x="100" y="680" fill="#0e3144" font-family="Georgia, serif" font-size="36">Consultation room</text>
+  <text x="100" y="728" fill="#4e616b" font-family="Arial, sans-serif" font-size="22">Photograph to be added � Puppalguda</text>
+</svg>

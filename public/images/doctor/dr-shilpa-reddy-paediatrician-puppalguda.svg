@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img">
+  <title>Photograph placeholder for Dr. Shilpa Reddy T</title>
+  <rect width="800" height="1000" fill="#0e3144"/>
+  <circle cx="340" cy="340" r="150" fill="none" stroke="#1a6b64" stroke-width="3"/>
+  <circle cx="430" cy="340" r="150" fill="none" stroke="#e7f3f1" stroke-width="3" opacity="0.8"/>
+  <text x="72" y="640" fill="#ffffff" font-family="Georgia, serif" font-size="44">Dr. Shilpa Reddy T</text>
+  <text x="72" y="700" fill="#d7ebe8" font-family="Georgia, serif" font-size="24">Photograph to be added</text>
+  <text x="72" y="760" fill="#8fd0c8" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">TINY TOTZ KIDS CLINIC</text>
+  <text x="72" y="800" fill="#d5e1e6" font-family="Arial, sans-serif" font-size="16">Puppalguda, Hyderabad</text>
+</svg>
