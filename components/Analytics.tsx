@@ -6,7 +6,10 @@ function safeId(value: string | undefined, pattern: RegExp) {
 }
 
 export function Analytics() {
-  const ga = safeId(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID, /^G-[A-Z0-9]+$/);
+  const ga = safeId(
+    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-E5GG558F1F",
+    /^G-[A-Z0-9]+$/,
+  );
   const gtm = safeId(process.env.NEXT_PUBLIC_GTM_ID, /^GTM-[A-Z0-9]+$/);
 
   return (
