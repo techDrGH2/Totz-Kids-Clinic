@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-nunito), "Nunito", system-ui, sans-serif;
-  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
+  --font-serif: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
   --color-navy: #25264a;
   --color-navy-deep: #1b1d3a;
   --color-ink: #2d3158;
@@ -71,6 +71,20 @@ img {
 
 section {
   position: relative;
+  isolation: isolate;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 7% 22%, rgba(233, 142, 174, 0.28) 0 46px, transparent 47px),
+    radial-gradient(circle at 93% 18%, rgba(85, 197, 192, 0.26) 0 38px, transparent 39px),
+    radial-gradient(circle at 12% 82%, rgba(255, 200, 61, 0.3) 0 34px, transparent 35px),
+    radial-gradient(circle at 88% 78%, rgba(241, 91, 98, 0.2) 0 30px, transparent 31px);
 }
 
 ::selection {
@@ -232,7 +246,7 @@ h3,
 
 .hero-tagline {
   margin: 0.85rem 0 0;
-  font-family: var(--font-nunito), var(--font-sans), sans-serif;
+  font-family: var(--font-sans), sans-serif;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.16em;
@@ -253,7 +267,7 @@ h3,
 .hero-lead {
   margin: 1.15rem 0 0;
   max-width: 32rem;
-  font-family: var(--font-nunito), var(--font-sans), sans-serif;
+  font-family: var(--font-sans), sans-serif;
   font-size: 1.08rem;
   line-height: 1.7;
   color: var(--brand-muted);

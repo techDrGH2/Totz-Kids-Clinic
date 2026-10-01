@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Nunito } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { Phone } from "lucide-react";
 import { Analytics } from "@/components/Analytics";
 import {
@@ -19,18 +19,10 @@ import {
 } from "@/lib/schema";
 import "./globals.css";
 
-const nunito = Nunito({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-nunito",
-  display: "swap",
-  preload: true,
-  adjustFontFallback: true,
-});
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-cormorant",
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-montserrat",
   display: "swap",
   preload: true,
   adjustFontFallback: true,
@@ -130,7 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en-IN"
-      className={`${nunito.variable} ${cormorant.variable}`}
+      className={montserrat.variable}
     >
       <body className="min-h-screen bg-[var(--brand-cream)] font-sans text-[var(--brand-text)] antialiased">
         <a
