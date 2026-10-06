@@ -30,7 +30,7 @@ export function buildLlmsTxt() {
     link("About", "/about", "About Tiny Totz Kids Clinic"),
     link("Doctor", "/doctor", `${doctor.name}, ${doctor.role}`),
     link("Services", "/services", "Full list of paediatric services"),
-    link("Book appointment", "/appointment", "Request an evening consultation"),
+    `- [Book appointment](${clinic.bookingUrl}): Book an evening consultation`,
     link("Contact", "/contact", "Phone, WhatsApp, email, map and hours"),
     link("FAQ", "/faq", "Common parent questions"),
     link("Gallery", "/gallery", "Clinic photographs"),

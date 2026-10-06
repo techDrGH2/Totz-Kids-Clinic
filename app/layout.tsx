@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Phone } from "lucide-react";
 import { Analytics } from "@/components/Analytics";
-import {
-  AppointmentBookingProvider,
-  BookAppointmentButton,
-} from "@/components/AppointmentBooking";
+import { BookAppointmentButton } from "@/components/AppointmentBooking";
 import { DeferredChrome } from "@/components/DeferredChrome";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -134,11 +131,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={websiteSchema()} />
         <JsonLd data={medicalClinicSchema()} />
         <JsonLd data={physicianSchema()} />
-        <AppointmentBookingProvider>
-          <Header />
-          <main id="main">{children}</main>
-          <Footer />
-          <div className="fixed right-5 bottom-5 z-40 hidden flex-col items-end gap-3 md:flex">
+        <Header />
+        <main id="main">{children}</main>
+        <Footer />
+        <div className="fixed right-5 bottom-5 z-40 hidden flex-col items-end gap-3 md:flex">
             <TrackedLink
               href={`tel:${clinic.phoneTel}`}
               event="call_click"
@@ -158,9 +154,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </span>
               Book Appointment
             </BookAppointmentButton>
-          </div>
-          <DeferredChrome />
-        </AppointmentBookingProvider>
+        </div>
+        <DeferredChrome />
         <Analytics />
       </body>
     </html>

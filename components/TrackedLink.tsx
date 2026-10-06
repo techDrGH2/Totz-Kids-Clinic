@@ -10,6 +10,7 @@ type Props = {
   className?: string;
   children: React.ReactNode;
   ariaLabel?: string;
+  onClick?: () => void;
 };
 
 export function TrackedLink({
@@ -19,8 +20,10 @@ export function TrackedLink({
   className,
   children,
   ariaLabel,
+  onClick,
 }: Props) {
-  const onClick = () => {
+  const handleClick = () => {
+    onClick?.();
     if (event) trackEvent(event, eventLabel ? { label: eventLabel } : undefined);
   };
 
@@ -33,7 +36,7 @@ export function TrackedLink({
       <a
         href={href}
         className={className}
-        onClick={onClick}
+        onClick={handleClick}
         aria-label={ariaLabel}
         {...(newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
@@ -43,7 +46,7 @@ export function TrackedLink({
   }
 
   return (
-    <Link href={href} className={className} onClick={onClick} aria-label={ariaLabel}>
+    <Link href={href} className={className} onClick={handleClick} aria-label={ariaLabel}>
       {children}
     </Link>
   );

@@ -91,6 +91,11 @@ export function medicalClinicSchema() {
     })),
     employee: { "@id": `${siteUrl}/#physician` },
     hasMap: clinic.maps.searchUrl,
+    potentialAction: {
+      "@type": "ReserveAction",
+      name: "Book appointment",
+      target: clinic.bookingUrl,
+    },
     slogan: clinic.tagline,
     priceRange: clinic.priceRange,
     currenciesAccepted: clinic.currenciesAccepted,

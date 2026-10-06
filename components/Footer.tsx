@@ -54,9 +54,20 @@ export function Footer() {
             <ul className="space-y-2.5 text-sm text-white/72">
               {footerExploreNav.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="transition hover:text-white">
-                    {item.label}
-                  </Link>
+                  {item.href.startsWith("http") ? (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-white"
+                    >
+                      {item.label}
+                    </a>
+                  ) : (
+                    <Link href={item.href} className="transition hover:text-white">
+                      {item.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

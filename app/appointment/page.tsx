@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { AppointmentForm } from "@/components/AppointmentForm";
+import { BookAppointmentButton } from "@/components/AppointmentBooking";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { btnPrimary } from "@/components/TrackedLink";
 import { addressInline, clinic } from "@/lib/clinic";
 import { pageMetadata } from "@/lib/seo";
 
@@ -19,10 +21,12 @@ export default function AppointmentPage() {
           <Breadcrumbs items={[{ name: "Appointment", href: "/appointment" }]} />
           <h1 className="font-serif text-4xl text-navy md:text-5xl">Book an appointment</h1>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-muted">
-            Share a preferred time for a consultation with Dr. Shilpa Reddy T. After
-            you submit, WhatsApp opens with your details ready to send to{" "}
-            {clinic.phoneDisplay}.
+            Choose a date and time for a consultation with Dr. Shilpa Reddy T.
+            You can also send a WhatsApp request to {clinic.phoneDisplay}.
           </p>
+          <BookAppointmentButton eventLabel="appointment-page" className={`${btnPrimary} mt-6`}>
+            Book Appointment
+          </BookAppointmentButton>
         </div>
       </header>
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-[1fr_18rem]">

@@ -28,6 +28,7 @@ export const clinic = {
   phoneWhatsApp: "917815933120",
   email: "tinytotzkidsofficial@gmail.com",
   website: siteUrl,
+  bookingUrl: "https://tdappointments.com/doctor/tinytotzclinic",
   address: {
     floor: "2nd Floor, C Block",
     building: "DNS Business Hub",

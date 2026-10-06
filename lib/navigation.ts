@@ -1,3 +1,5 @@
+import { clinic } from "@/lib/clinic";
+
 export const mainNav = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
@@ -15,7 +17,7 @@ export const footerExploreNav = [
   { href: "/faq", label: "FAQs" },
   { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
-  { href: "/appointment", label: "Book Appointment" },
+  { href: clinic.bookingUrl, label: "Book Appointment" },
 ] as const;
 
 export const footerCareNav = [
