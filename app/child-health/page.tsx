@@ -33,9 +33,9 @@ const pageFaqs = faqs.filter((item) =>
 );
 
 export const metadata: Metadata = pageMetadata({
-  title: "Child Health Care in Puppalguda",
+  title: "Child Health Care in Hyderabad",
   description:
-    "Child health checkups, illness consultations and growth reviews at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+    "Child health checkups, illness consultations and growth reviews at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
   path: "/child-health",
 });
 
@@ -45,7 +45,7 @@ export default function ChildHealthPage() {
       <JsonLd
         data={webPageSchema({
           path: "/child-health",
-          name: "Child Health Care in Puppalguda",
+          name: "Child Health Care in Hyderabad",
           description: "Paediatric child health consultations at Tiny Totz Kids Clinic.",
         })}
       />
@@ -55,7 +55,7 @@ export default function ChildHealthPage() {
           <Breadcrumbs items={[{ name: "Child Health", href: "/child-health" }]} />
           <p className="eyebrow">Child health</p>
           <h1 className="mt-3 max-w-3xl font-serif text-4xl text-navy md:text-5xl">
-            Child health care in Puppalguda
+            Child health care in Hyderabad
           </h1>
           <p className="mt-5 max-w-3xl border-l-2 border-teal pl-4 text-lg leading-8">
             {clinic.name} provides child health consultations for infants, children and

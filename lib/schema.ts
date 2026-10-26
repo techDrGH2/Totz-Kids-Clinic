@@ -1,6 +1,6 @@
 import type { BlogPost } from "@/lib/blog";
 import { posts } from "@/lib/blog";
-import { addressInline, clinic, siteUrl } from "@/lib/clinic";
+import { addressInline, clinic, placeLabel, siteUrl } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { faqs, type FaqItem } from "@/lib/faqs";
 import { nearbyAreaNames } from "@/lib/locations";
@@ -59,7 +59,7 @@ export function medicalClinicSchema() {
     image: absoluteUrl("/images/doctor/hero-paediatric-care.webp"),
     logo: absoluteUrl("/images/tiny-totz-kids-clinic-logo.webp"),
     medicalSpecialty: ["Pediatric", "Pediatric Intensive Care"],
-    description: `${clinic.name} provides paediatric care in ${clinic.address.area}, ${clinic.address.city}, including newborn care, vaccination guidance, child health checkups, nutrition, allergies, asthma and developmental care with ${doctor.name}.`,
+    description: `${clinic.name} provides paediatric care in ${placeLabel()}, including newborn care, vaccination guidance, child health checkups, nutrition, allergies, asthma and developmental care with ${doctor.name}.`,
     address: {
       "@type": "PostalAddress",
       streetAddress: clinic.address.streetAddress,
@@ -118,7 +118,7 @@ export function physicianSchema() {
     telephone: clinic.phoneDisplay,
     medicalSpecialty: ["Pediatric", "Pediatric Intensive Care"],
     image: absoluteUrl(doctor.image.src),
-    description: `${doctor.name} is a ${doctor.role} at ${clinic.name} in ${clinic.address.area}, ${clinic.address.city}. Qualifications: ${doctor.qualificationsInline}.`,
+    description: `${doctor.name} is a ${doctor.role} at ${clinic.name} in ${placeLabel()}. Qualifications: ${doctor.qualificationsInline}.`,
     worksFor: { "@id": `${siteUrl}/#clinic` },
     address: {
       "@type": "PostalAddress",
@@ -184,7 +184,7 @@ export function websiteSchema() {
     "@id": `${siteUrl}/#website`,
     name: clinic.name,
     url: siteUrl,
-    description: `${clinic.name} is a paediatric clinic in ${clinic.address.area}, ${clinic.address.city}.`,
+    description: `${clinic.name} is a paediatric clinic in ${placeLabel()}.`,
     publisher: { "@id": `${siteUrl}/#clinic` },
     inLanguage: "en-IN",
   };
@@ -277,7 +277,7 @@ export function serviceGlanceItems(service: Service) {
     { label: "Doctor", value: `${doctor.name} · ${doctor.qualificationsInline}` },
     {
       label: "Clinic",
-      value: `${clinic.name}, ${clinic.address.area}, ${clinic.address.city} ${clinic.address.postalCode}`,
+      value: `${clinic.name}, ${placeLabel()} ${clinic.address.postalCode}`,
     },
     { label: "Hours", value: clinic.hours.summary },
     { label: "Phone", value: clinic.phoneDisplay },
@@ -297,7 +297,7 @@ export const clinicGlance = [
   { label: "Qualification", value: doctor.qualificationsInline },
   {
     label: "Location",
-    value: `${clinic.address.area}, ${clinic.address.city}`,
+    value: placeLabel(),
   },
   { label: "Address", value: addressInline() },
   { label: "Phone", value: clinic.phoneDisplay },

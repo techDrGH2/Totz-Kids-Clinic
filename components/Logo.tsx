@@ -9,7 +9,7 @@ type LogoProps = {
 export function Logo({
   className = "h-14 w-auto",
   priority = false,
-  alt = "Tiny Totz Kids Clinic logo - paediatric clinic in Puppalguda, Hyderabad",
+  alt = "Tiny Totz Kids Clinic logo - paediatric clinic in Hyderabad",
 }: LogoProps) {
   return (
     <Image

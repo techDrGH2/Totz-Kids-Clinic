@@ -91,7 +91,7 @@ export default async function AreaPage({ params }: Props) {
               <Link className="font-semibold text-teal" href="/services">
                 paediatric services
               </Link>{" "}
-              list. All of them happen in Puppalguda.
+              list. All of them happen in Hyderabad.
             </p>
           </div>
           <aside className="h-fit border border-line p-5">
@@ -122,7 +122,7 @@ export default async function AreaPage({ params }: Props) {
       <AppointmentCTA
         heading={
           area.clinicIsHere
-            ? "Book at the Puppalguda clinic"
+            ? "Book at the Hyderabad clinic"
             : `Travelling from ${area.name}?`
         }
         text="Confirm a Monday to Saturday evening slot before you leave home."

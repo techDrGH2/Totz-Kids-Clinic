@@ -69,21 +69,21 @@ export const posts: BlogPost[] = [
     slug: "preparing-for-a-newborn-paediatric-visit",
     title: "How to prepare for your newborn’s paediatric visit",
     description:
-      "A practical guide for the first clinic visit with a newborn in Puppalguda: what to carry, what to notice at home, feeding notes, and which symptoms should not wait for an evening appointment.",
+      "A practical guide for the first clinic visit with a newborn in Hyderabad: what to carry, what to notice at home, feeding notes, and which symptoms should not wait for an evening appointment.",
     category: "Newborn Care",
     author: "Tiny Totz Kids Clinic",
     medicalReview: null,
     publishedOn: "2026-09-24",
     updatedOn: "2026-09-26",
     image: {
-      src: "/images/clinic/newborn-care-paediatrician-puppalguda.webp",
-      alt: "Newborn care consultation at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      src: "/images/clinic/newborn-care-paediatrician-hyderabad.webp",
+      alt: "Newborn care consultation at Tiny Totz Kids Clinic in Hyderabad",
     },
     relatedServices: ["newborn-care", "child-vaccination", "well-child-visits"],
     blocks: [
       {
         type: "p",
-        text: "A newborn paediatric visit is a planned checkup soon after you come home from the hospital or birth centre. It is used to review feeding, weight, colour, breathing comfort, and the questions that fill the first weeks. At Tiny Totz Kids Clinic in Puppalguda, Hyderabad, these visits usually fit into evening hours so working parents can attend without leaving a daytime job mid-shift.",
+        text: "A newborn paediatric visit is a planned checkup soon after you come home from the hospital or birth centre. It is used to review feeding, weight, colour, breathing comfort, and the questions that fill the first weeks. At Tiny Totz Kids Clinic in Hyderabad, these visits usually fit into evening hours so working parents can attend without leaving a daytime job mid-shift.",
       },
       {
         type: "p",
@@ -131,7 +131,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Families in Puppalguda, Manikonda, Narsingi, and Kokapet often share caregiving across grandparents and parents. One shared note on the phone prevents conflicting stories about how much the baby drank. Consistency of the history is part of safe newborn care.",
+        text: "Families in Hyderabad, Manikonda, Narsingi, and Kokapet often share caregiving across grandparents and parents. One shared note on the phone prevents conflicting stories about how much the baby drank. Consistency of the history is part of safe newborn care.",
       },
       {
         type: "h2",
@@ -241,21 +241,21 @@ export const posts: BlogPost[] = [
     slug: "questions-before-a-vaccination-visit",
     title: "Questions worth asking before a vaccination visit",
     description:
-      "What parents in Puppalguda and Hyderabad can clarify before a child vaccination appointment, without relying on an outdated printed schedule.",
+      "What parents in Hyderabad and Hyderabad can clarify before a child vaccination appointment, without relying on an outdated printed schedule.",
     category: "Vaccination",
     author: "Tiny Totz Kids Clinic",
     medicalReview: null,
     publishedOn: "2026-09-24",
     updatedOn: "2026-09-26",
     image: {
-      src: "/images/services/child-vaccination-puppalguda.webp",
-      alt: "Child vaccination visit with a paediatrician at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      src: "/images/services/child-vaccination-hyderabad.webp",
+      alt: "Child vaccination visit with a paediatrician at Tiny Totz Kids Clinic in Hyderabad",
     },
     relatedServices: ["child-vaccination", "well-child-visits", "common-childhood-illnesses"],
     blocks: [
       {
         type: "p",
-        text: "A vaccination visit is a preventive appointment where due doses are reviewed against your child’s age, health, and previous record. The smoothest visits start with the card in hand and specific questions written down. At Tiny Totz Kids Clinic in Puppalguda, immunisation guidance is planned for the individual child rather than copied from a one-size chart on a website.",
+        text: "A vaccination visit is a preventive appointment where due doses are reviewed against your child’s age, health, and previous record. The smoothest visits start with the card in hand and specific questions written down. At Tiny Totz Kids Clinic in Hyderabad, immunisation guidance is planned for the individual child rather than copied from a one-size chart on a website.",
       },
       {
         type: "p",
@@ -351,7 +351,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Do not rely on memory for admission forms. Incomplete forms delay school joining and lead to rushed vaccination decisions. A calm preventive visit is safer than a last-minute queue pressed by an admission deadline. If you are changing cities within Telangana or returning to Hyderabad after months away, gather every card before the first Puppalguda appointment so catch-up planning starts with facts.",
+        text: "Do not rely on memory for admission forms. Incomplete forms delay school joining and lead to rushed vaccination decisions. A calm preventive visit is safer than a last-minute queue pressed by an admission deadline. If you are changing cities within Telangana or returning to Hyderabad after months away, gather every card before the first Hyderabad appointment so catch-up planning starts with facts.",
       },
       {
         type: "h2",
@@ -371,7 +371,7 @@ export const posts: BlogPost[] = [
           {
             question: "Does Tiny Totz provide child vaccinations?",
             answer:
-              "Yes. Immunisation and vaccination guidance are available at the Puppalguda clinic. The plan is made for the individual child after reviewing the record.",
+              "Yes. Immunisation and vaccination guidance are available at the Hyderabad clinic. The plan is made for the individual child after reviewing the record.",
           },
           {
             question: "Can I vaccinate if my child has a cold?",
@@ -400,21 +400,21 @@ export const posts: BlogPost[] = [
     slug: "talking-about-your-childs-growth",
     title: "How growth is discussed in a child health visit",
     description:
-      "What paediatric growth monitoring covers at Tiny Totz Kids Clinic in Puppalguda, and when poor weight gain or a sudden change is worth booking.",
+      "What paediatric growth monitoring covers at Tiny Totz Kids Clinic in Hyderabad, and when poor weight gain or a sudden change is worth booking.",
     category: "Child Nutrition",
     author: "Tiny Totz Kids Clinic",
     medicalReview: null,
     publishedOn: "2026-09-24",
     updatedOn: "2026-09-26",
     image: {
-      src: "/images/clinic/paediatric-consultation-room-puppalguda.webp",
-      alt: "Paediatric consultation room at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      src: "/images/clinic/paediatric-consultation-room-hyderabad.webp",
+      alt: "Paediatric consultation room at Tiny Totz Kids Clinic in Hyderabad",
     },
     relatedServices: ["child-nutrition", "well-child-visits", "obesity-puberty"],
     blocks: [
       {
         type: "p",
-        text: "Growth monitoring in a child health visit is a review of weight, height, and how those numbers change over time for your child. It is not a single judgement based on one afternoon on a relative’s weighing scale. At Tiny Totz Kids Clinic in Puppalguda, growth is discussed as a pattern that includes feeding, recent illness, activity, and development.",
+        text: "Growth monitoring in a child health visit is a review of weight, height, and how those numbers change over time for your child. It is not a single judgement based on one afternoon on a relative’s weighing scale. At Tiny Totz Kids Clinic in Hyderabad, growth is discussed as a pattern that includes feeding, recent illness, activity, and development.",
       },
       {
         type: "p",
@@ -461,7 +461,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Seek sooner review if weight loss is rapid, the child is drinking poorly, urine output drops, or fatigue is marked. Evening clinic hours suit many planned reviews, but urgent dehydration or breathing difficulty should not wait for a convenient Puppalguda slot.",
+        text: "Seek sooner review if weight loss is rapid, the child is drinking poorly, urine output drops, or fatigue is marked. Evening clinic hours suit many planned reviews, but urgent dehydration or breathing difficulty should not wait for a convenient Hyderabad slot.",
       },
       {
         type: "h2",
@@ -481,7 +481,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: `Parents from Puppalguda, Manikonda, Narsingi, Kokapet, Khajaguda, and Lanco Hills often book evening appointments after school. The clinic is at ${addressInline()}. Call ${clinic.phoneDisplay}. Hours: ${clinic.hours.summary}. Ask for a growth or well-child slot so the visit is not absorbed into an acute fever queue.`,
+        text: `Parents from Hyderabad, Manikonda, Narsingi, Kokapet, Khajaguda, and Lanco Hills often book evening appointments after school. The clinic is at ${addressInline()}. Call ${clinic.phoneDisplay}. Hours: ${clinic.hours.summary}. Ask for a growth or well-child slot so the visit is not absorbed into an acute fever queue.`,
       },
       {
         type: "h2",
@@ -506,7 +506,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "After recovery, a follow-up measurement helps show whether catch-up is starting. One home-scale reading the week after a stomach illness is rarely enough to declare a long-term problem. Patterns across visits matter more than a single anxious afternoon. Families in Puppalguda and Manikonda often rebook two to four weeks later when illness has settled so the trend is clearer.",
+        text: "After recovery, a follow-up measurement helps show whether catch-up is starting. One home-scale reading the week after a stomach illness is rarely enough to declare a long-term problem. Patterns across visits matter more than a single anxious afternoon. Families in Hyderabad and Manikonda often rebook two to four weeks later when illness has settled so the trend is clearer.",
       },
       {
         type: "h2",
@@ -556,7 +556,7 @@ export const posts: BlogPost[] = [
     slug: "what-happens-at-a-well-child-visit",
     title: "What happens at a well-child visit",
     description:
-      "A parent’s guide to routine child health checkups in Puppalguda: growth, development, vaccines, sleep, and the questions worth saving for a visit when your child is well.",
+      "A parent’s guide to routine child health checkups in Hyderabad: growth, development, vaccines, sleep, and the questions worth saving for a visit when your child is well.",
     category: "Parenting Guidance",
     author: "Tiny Totz Kids Clinic",
     medicalReview: null,
@@ -564,7 +564,7 @@ export const posts: BlogPost[] = [
     updatedOn: "2026-09-26",
     image: {
       src: "/images/clinic/clinic-exterior.webp",
-      alt: "Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Tiny Totz Kids Clinic in Hyderabad",
     },
     relatedServices: ["well-child-visits", "developmental-assessment", "child-vaccination"],
     blocks: [
@@ -574,7 +574,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "At Tiny Totz Kids Clinic in Puppalguda, Hyderabad, well-child appointments are especially useful in the evening for families balancing school and work. Dr. Shilpa Reddy T uses the visit to measure, listen, and answer the questions parents save for a calmer day. This guide explains what to expect. It is not a certificate that a child will never become ill.",
+        text: "At Tiny Totz Kids Clinic in Hyderabad, well-child appointments are especially useful in the evening for families balancing school and work. Dr. Shilpa Reddy T uses the visit to measure, listen, and answer the questions parents save for a calmer day. This guide explains what to expect. It is not a certificate that a child will never become ill.",
       },
       {
         type: "h2",

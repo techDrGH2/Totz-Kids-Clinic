@@ -1,4 +1,4 @@
-import { addressInline, clinic, medicalDisclaimer, siteUrl } from "@/lib/clinic";
+import { addressInline, clinic, medicalDisclaimer, placeLabel, siteUrl } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { posts } from "@/lib/blog";
 import { areas } from "@/lib/locations";
@@ -15,7 +15,7 @@ export function buildLlmsTxt() {
   const lines = [
     `# ${clinic.name}`,
     "",
-    `> Paediatric clinic in ${clinic.address.area}, ${clinic.address.city}, led by ${doctor.name} (${doctor.qualificationsInline}).`,
+    `> Paediatric clinic in ${placeLabel()}, led by ${doctor.name} (${doctor.qualificationsInline}).`,
     "",
     `${clinic.name} provides child healthcare for newborns, infants, children and adolescents.`,
     `Consultations run ${clinic.hours.summary}. Address: ${addressInline()}.`,
@@ -26,7 +26,7 @@ export function buildLlmsTxt() {
     "",
     "## Primary pages",
     "",
-    link("Home", "/", "Clinic overview and paediatric services in Puppalguda"),
+    link("Home", "/", "Clinic overview and paediatric services in Hyderabad"),
     link("About", "/about", "About Tiny Totz Kids Clinic"),
     link("Doctor", "/doctor", `${doctor.name}, ${doctor.role}`),
     link("Services", "/services", "Full list of paediatric services"),
@@ -34,7 +34,7 @@ export function buildLlmsTxt() {
     link("Contact", "/contact", "Phone, WhatsApp, email, map and hours"),
     link("FAQ", "/faq", "Common parent questions"),
     link("Gallery", "/gallery", "Clinic photographs"),
-    link("Areas we serve", "/areas-we-serve", "Neighbourhoods around Puppalguda"),
+    link("Areas we serve", "/areas-we-serve", "Neighbourhoods around Hyderabad"),
     link("Blog", "/blog", "Parent education articles from the clinic"),
     "",
     "## Services",

@@ -7,7 +7,7 @@ import { doctor } from "@/lib/doctor";
 
 const heroImage = {
   src: "/images/doctor/hero-paediatric-care.webp",
-  alt: `Smiling toddler on an exam chair during a paediatric checkup at ${clinic.name} in Puppalguda, Hyderabad`,
+  alt: `Smiling toddler on an exam chair during a paediatric checkup at ${clinic.name} in Hyderabad`,
   width: 1024,
   height: 682,
 } as const;
@@ -33,7 +33,7 @@ export function Hero() {
           <p className="hero-tagline">{clinic.tagline}</p>
 
           <h1 id="hero-heading" className="hero-title">
-            Paediatric care in Puppalguda, Hyderabad
+            Paediatric care in Hyderabad
           </h1>
 
           <p className="hero-lead">

@@ -7,7 +7,7 @@ import { BookAppointmentButton } from "@/components/AppointmentBooking";
 import { Logo } from "@/components/Logo";
 import { MobileMenu } from "@/components/MobileMenu";
 import { btnPrimary, btnSecondary, TrackedLink } from "@/components/TrackedLink";
-import { clinic } from "@/lib/clinic";
+import { clinic, placeLabel } from "@/lib/clinic";
 import { mainNav } from "@/lib/navigation";
 import { whatsappMessages, whatsappUrl } from "@/lib/whatsapp";
 
@@ -19,7 +19,7 @@ export function Header() {
       <div className="site-header-top hidden border-b border-white/10 md:block">
         <div className="mx-auto flex max-w-6xl items-center px-5 py-1.5 text-xs text-white/80">
           <p className="min-w-0 leading-5">
-            {clinic.address.area}, {clinic.address.city}
+            {placeLabel()}
             <span className="mx-2 text-white/40">·</span>
             <a className="hover:text-white" href={`tel:${clinic.phoneTel}`}>
               {clinic.phoneDisplay}
@@ -31,7 +31,7 @@ export function Header() {
         <Link href="/" className="shrink-0">
           <Logo
             priority
-            alt={`${clinic.name} logo - paediatric clinic in Puppalguda, Hyderabad`}
+            alt={`${clinic.name} logo - paediatric clinic in Hyderabad`}
             className="h-14 w-auto"
           />
         </Link>

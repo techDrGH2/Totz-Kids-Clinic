@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Tiny Totz Kids Clinic, paediatrician and child healthcare in Puppalguda, Hyderabad";
+export const alt = "Tiny Totz Kids Clinic, paediatrician and child healthcare in Hyderabad";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -25,7 +25,7 @@ export default function OpenGraphImage() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 68, lineHeight: 1.05 }}>Tiny Totz Kids Clinic</div>
           <div style={{ marginTop: 18, fontSize: 32, color: "#f3e6df" }}>
-            Puppalguda, Hyderabad
+            Hyderabad
           </div>
         </div>
         <div style={{ display: "flex", fontSize: 24, color: "#d5e1e6" }}>

@@ -63,9 +63,9 @@ export const faqs: FaqItem[] = [
       `${clinic.name} is at ${addressInline()}. Call ${clinic.phoneDisplay}. It is one clinic. Families also travel from Manikonda, Narsingi, Kokapet, and nearby neighbourhoods.`,
   },
   {
-    question: "Is there a paediatrician near Puppalguda, Hyderabad?",
+    question: "Is there a paediatrician near Hyderabad?",
     answer:
-      `Yes. ${doctor.name} consults at ${clinic.name} in Puppalguda, Hyderabad (${addressInline()}). Evening appointments run ${clinic.hours.summary}. Call ${clinic.phoneDisplay} to book.`,
+      `Yes. ${doctor.name} consults at ${clinic.name} in Hyderabad (${addressInline()}). Evening appointments run ${clinic.hours.summary}. Call ${clinic.phoneDisplay} to book.`,
   },
   {
     question: "How can I book an appointment?",

@@ -35,8 +35,8 @@ export const clinic = {
     landmark: "Opposite Alanati Restaurant",
     plusCode: "C928+935",
     streetAddress:
-      "2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Puppalguda",
-    area: "Puppalguda",
+      "2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant",
+    area: "Hyderabad",
     city: "Hyderabad",
     state: "Telangana",
     postalCode: "500089",
@@ -68,15 +68,15 @@ export const clinic = {
   },
   maps: {
     query:
-      "2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Puppalguda, Hyderabad, Telangana 500089",
-    /** Approximate coordinates for DNS Business Hub, Puppalguda (Plus Code C928+935). */
+      "2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Hyderabad, Telangana 500089",
+    /** Approximate coordinates for DNS Business Hub, Hyderabad (Plus Code C928+935). */
     geo: {
       latitude: 17.4053,
       longitude: 78.3908,
     },
     get directionsUrl() {
       return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
-        "Tiny Totz Kids Clinic, 2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Puppalguda, Hyderabad, Telangana 500089",
+        "Tiny Totz Kids Clinic, 2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Hyderabad, Telangana 500089",
       )}`;
     },
     get embedUrl() {
@@ -86,7 +86,7 @@ export const clinic = {
     },
     get searchUrl() {
       return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-        "Tiny Totz Kids Clinic, 2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Puppalguda, Hyderabad 500089",
+        "Tiny Totz Kids Clinic, 2nd Floor, C Block, DNS Business Hub, C928+935, Opposite Alanati Restaurant, Hyderabad 500089",
       )}`;
     },
   },
@@ -103,7 +103,7 @@ export const clinic = {
   paymentAccepted: "Cash, Card, UPI",
   /** Search link only. A verified Google Business profile URL was not available. */
   googleReviewsUrl:
-    "https://www.google.com/search?q=Tiny+Totz+Kids+Clinic+Puppalguda+reviews",
+    "https://www.google.com/search?q=Tiny+Totz+Kids+Clinic+Hyderabad+reviews",
   /** Add profile URLs only after the clinic confirms them. */
   socialLinks: [] as { label: string; href: string }[],
 } as const;
@@ -115,6 +115,11 @@ export const trustStats = [
   { id: "role", value: "Pediatric", label: "Intensivist" },
 ] as const;
 
+export function placeLabel() {
+  const { area, city } = clinic.address;
+  return area.toLowerCase() === city.toLowerCase() ? city : `${area}, ${city}`;
+}
+
 export function addressLines() {
   return [
     clinic.name,
@@ -122,11 +127,11 @@ export function addressLines() {
     clinic.address.building,
     clinic.address.plusCode,
     clinic.address.landmark,
-    `${clinic.address.area}, ${clinic.address.city}`,
+    placeLabel(),
     `${clinic.address.state} ${clinic.address.postalCode}`,
   ];
 }
 
 export function addressInline() {
-  return `${clinic.address.floor}, ${clinic.address.building}, ${clinic.address.plusCode}, ${clinic.address.landmark}, ${clinic.address.area}, ${clinic.address.city}, ${clinic.address.state} ${clinic.address.postalCode}`;
+  return `${clinic.address.floor}, ${clinic.address.building}, ${clinic.address.plusCode}, ${clinic.address.landmark}, ${placeLabel()}, ${clinic.address.state} ${clinic.address.postalCode}`;
 }

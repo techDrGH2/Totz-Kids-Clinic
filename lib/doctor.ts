@@ -14,8 +14,8 @@ export const doctor = {
   role: "Consultant Paediatrician & Pediatric Intensivist",
   image: {
     src: "/images/doctor/dr-shilpa-reddy.webp",
-    fallbackSrc: "/images/doctor/dr-shilpa-reddy-paediatrician-puppalguda.svg",
-    alt: "Portrait of Dr. Shilpa Reddy T, consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+    fallbackSrc: "/images/doctor/dr-shilpa-reddy-paediatrician-hyderabad.svg",
+    alt: "Portrait of Dr. Shilpa Reddy T, consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad",
     width: 900,
     height: 1100,
   },
@@ -33,7 +33,7 @@ export const doctor = {
     "Well-child checkups",
   ],
   biography: [
-    "Dr. Shilpa Reddy T is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Puppalguda, Hyderabad. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
+    "Dr. Shilpa Reddy T is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
     "Consultations are arranged so parents can talk through what they are noticing at home. That may include feeding, sleep, fever, cough, growth, immunisation, or development. The visit stays focused on the child in the room, with time for questions.",
     "Newborn and infant care is a regular part of the practice, including feeding guidance, weight checks, and early health concerns. Preventive visits are used to look at growth and development and to plan the next checkup.",
     "When a child is unwell, the consultation covers the history, an appropriate examination, and a clear explanation of what to watch for. Parents leave with practical guidance. Outcomes depend on the child’s condition and are not guaranteed.",

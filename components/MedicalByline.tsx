@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { clinic } from "@/lib/clinic";
+import { clinic, placeLabel } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { paediatricCitations } from "@/lib/schema";
 import { formatDate } from "@/lib/blog";
@@ -15,7 +15,7 @@ export function MedicalByline({
     <aside className="mt-10 rounded-2xl border border-line bg-mist/80 p-5 text-sm leading-6 text-ink">
       <p>
         <span className="font-semibold text-navy">Written for parents about {topic}</span>{" "}
-        at {clinic.name}, {clinic.address.area}, {clinic.address.city}.
+        at {clinic.name}, {placeLabel()}.
       </p>
       <p className="mt-2">
         Clinical guidance by{" "}

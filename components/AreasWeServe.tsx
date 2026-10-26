@@ -25,7 +25,7 @@ export function AreasWeServe() {
               Paediatric care near you in Hyderabad
             </h2>
             <p className="mt-4 max-w-md text-base leading-7 text-muted">
-              The clinic is in Puppalguda. Families from nearby neighbourhoods
+              The clinic is in Hyderabad. Families from nearby neighbourhoods
               come here for consultations. These are not additional branches.
             </p>
             <Link href="/areas-we-serve" className={`${btnNavy} mt-7 w-fit`}>
@@ -36,7 +36,7 @@ export function AreasWeServe() {
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             {nearbyAreaNames.map((name) => {
               const page = areas.find((area) => area.name === name);
-              const isClinic = name === "Puppalguda";
+              const isClinic = name === "Hyderabad";
               const body = (
                 <span
                   className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border px-3.5 py-4 text-sm font-medium text-navy transition ${

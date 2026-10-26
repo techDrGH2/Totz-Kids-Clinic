@@ -9,7 +9,7 @@ import { faqSchema, webPageSchema } from "@/lib/schema";
 export const metadata: Metadata = pageMetadata({
   title: "Paediatric FAQs for Parents",
   description:
-    "Answers about vaccinations, newborn care, feeding, allergies, growth and the location of Tiny Totz Kids Clinic in Puppalguda.",
+    "Answers about vaccinations, newborn care, feeding, allergies, growth and the location of Tiny Totz Kids Clinic in Hyderabad.",
   path: "/faq",
 });
 

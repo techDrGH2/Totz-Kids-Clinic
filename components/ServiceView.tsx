@@ -10,7 +10,7 @@ import {
 } from "@/components/MedicalByline";
 import { MedicalDisclaimer } from "@/components/MedicalDisclaimer";
 import { btnNavy, btnOutline, TrackedLink } from "@/components/TrackedLink";
-import { addressInline, clinic } from "@/lib/clinic";
+import { addressInline, clinic, placeLabel } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import {
   faqSchema,
@@ -54,7 +54,7 @@ export function ServiceView({ service }: { service: Service }) {
             />
             <p className="eyebrow">{service.eyebrow}</p>
             <h1 className="mt-3 max-w-3xl font-serif text-4xl text-navy md:text-5xl">
-              {service.title} in {clinic.address.area}, {clinic.address.city}
+              {service.title} in {placeLabel()}
             </h1>
             <p className="mt-5 max-w-3xl border-l-2 border-teal pl-4 text-lg leading-8 text-ink">
               {service.summary}
@@ -156,8 +156,8 @@ export function ServiceView({ service }: { service: Service }) {
               <p className="mt-3">
                 {doctor.name}, {doctor.qualificationsInline}, is the{" "}
                 {doctor.role.toLowerCase()} at {clinic.name}. This service is
-                part of her paediatric consultations in {clinic.address.area},{" "}
-                {clinic.address.city} {clinic.address.postalCode}.
+                part of her paediatric consultations in {placeLabel()}{" "}
+                {clinic.address.postalCode}.
               </p>
               <Link href="/doctor" className="mt-3 inline-block font-semibold text-teal">
                 View doctor profile

@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { TrackedLink } from "@/components/TrackedLink";
-import { clinic, siteUrl } from "@/lib/clinic";
+import { clinic, placeLabel, siteUrl } from "@/lib/clinic";
 import {
   medicalClinicSchema,
   physicianSchema,
@@ -30,22 +30,22 @@ const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Tiny Totz Kids Clinic | Paediatrician in Puppalguda, Hyderabad",
+    default: "Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
     template: "%s | Tiny Totz Kids Clinic",
   },
   description:
-    "Tiny Totz Kids Clinic provides paediatric care in Puppalguda, Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
+    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
   applicationName: clinic.name,
   authors: [{ name: clinic.name, url: siteUrl }],
   creator: clinic.name,
   publisher: clinic.name,
   category: "Health",
   keywords: [
-    "paediatrician in Puppalguda",
+    "paediatrician in Hyderabad",
     "pediatrician in Hyderabad",
     "child specialist in Hyderabad",
     "newborn care doctor in Hyderabad",
-    "kids vaccination clinic Puppalguda",
+    "kids vaccination clinic Hyderabad",
     "Tiny Totz Kids Clinic",
     "Dr. Shilpa Reddy T",
     clinic.name,
@@ -61,24 +61,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: clinic.name,
-    title: "Tiny Totz Kids Clinic | Paediatrician in Puppalguda, Hyderabad",
+    title: "Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
     description:
-      "Trusted paediatric care in Puppalguda, Hyderabad for newborn care, vaccination, growth, allergy, asthma and developmental support.",
+      "Trusted paediatric care in Hyderabad for newborn care, vaccination, growth, allergy, asthma and developmental support.",
     url: `${siteUrl}/`,
     images: [
       {
         url: `${siteUrl}/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: `${clinic.name} - paediatrician in Puppalguda, Hyderabad`,
+        alt: `${clinic.name} - paediatrician in Hyderabad`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tiny Totz Kids Clinic | Paediatrician in Puppalguda, Hyderabad",
+    title: "Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
     description:
-      "Trusted paediatric care in Puppalguda, Hyderabad for newborn care, vaccination, growth, allergy, asthma and developmental support.",
+      "Trusted paediatric care in Hyderabad for newborn care, vaccination, growth, allergy, asthma and developmental support.",
     images: [`${siteUrl}/opengraph-image`],
   },
   robots: {
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
   },
   other: {
     "geo.region": "IN-TG",
-    "geo.placename": `${clinic.address.area}, ${clinic.address.city}, ${clinic.address.state}`,
+    "geo.placename": `${placeLabel()}, ${clinic.address.state}`,
     "geo.position": `${clinic.maps.geo.latitude};${clinic.maps.geo.longitude}`,
     ICBM: `${clinic.maps.geo.latitude}, ${clinic.maps.geo.longitude}`,
     "theme-color": "#25264a",

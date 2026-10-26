@@ -100,12 +100,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to book a consultation for my child’s illness.",
     related: ["child-allergy-asthma", "well-child-visits", "newborn-care"],
-    seoTitle: "Childhood Illness Care in Puppalguda",
+    seoTitle: "Childhood Illness Care in Hyderabad",
     seoDescription:
-      "Paediatric consultations for fever, cough, cold, ear pain, vomiting and loose stools at Tiny Totz Kids Clinic, Puppalguda, with Dr. Shilpa Reddy T.",
+      "Paediatric consultations for fever, cough, cold, ear pain, vomiting and loose stools at Tiny Totz Kids Clinic, Hyderabad, with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/common-illness-management.webp",
-      alt: "Parent checking a toddler’s forehead for fever during childhood illness care at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Parent checking a toddler’s forehead for fever during childhood illness care at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 576,
     },
@@ -120,7 +120,7 @@ export const services: Service[] = [
     icon: "syringe",
     eyebrow: "Prevention",
     summary:
-      "Tiny Totz Kids Clinic provides child vaccination guidance and immunisation in Puppalguda. Vaccination schedules are advised according to the child’s age, health status and applicable pediatric recommendations.",
+      "Tiny Totz Kids Clinic provides child vaccination guidance and immunisation in Hyderabad. Vaccination schedules are advised according to the child’s age, health status and applicable pediatric recommendations.",
     intro: [
       "Vaccination is one of the most useful preventive visits in childhood. Parents often want to know which dose is due, what can wait, and how to prepare a nervous child.",
       "The clinic does not publish a fixed vaccine chart on this website. A chart goes out of date, and the right plan depends on the child’s age, health, and the doses already given. Bring the vaccination record if you have it.",
@@ -162,12 +162,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to know more about child vaccination services.",
     related: ["newborn-care", "well-child-visits", "common-childhood-illnesses"],
-    seoTitle: "Child Vaccination in Puppalguda",
+    seoTitle: "Child Vaccination in Hyderabad",
     seoDescription:
-      "Child vaccination and immunisation guidance in Puppalguda at Tiny Totz Kids Clinic. Schedules are advised for the child’s age and health with Dr. Shilpa Reddy T.",
+      "Child vaccination and immunisation guidance in Hyderabad at Tiny Totz Kids Clinic. Schedules are advised for the child’s age and health with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/child-vaccination.webp",
-      alt: "Child receiving an arm vaccination during immunisation at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Child receiving an arm vaccination during immunisation at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 682,
     },
@@ -182,7 +182,7 @@ export const services: Service[] = [
     icon: "baby",
     eyebrow: "First weeks",
     summary:
-      "Tiny Totz Kids Clinic provides newborn care in Puppalguda, including checkups, feeding guidance, weight monitoring, jaundice assessment, and vaccination advice with Dr. Shilpa Reddy T.",
+      "Tiny Totz Kids Clinic provides newborn care in Hyderabad, including checkups, feeding guidance, weight monitoring, jaundice assessment, and vaccination advice with Dr. Shilpa Reddy T.",
     intro: [
       "The first weeks with a newborn are full of small questions that feel large. A calm paediatric visit can sort feeding, weight, skin colour, sleep, and what is expected at this age.",
       "Parents are part of the consultation. Bring notes on feeds, wet nappies, and anything that has worried you since birth. Hospital discharge papers help when you have them.",
@@ -214,7 +214,7 @@ export const services: Service[] = [
       {
         question: "Does Tiny Totz provide newborn care?",
         answer:
-          "Yes. Newborn checkups, feeding guidance, breastfeeding support, weight monitoring, jaundice assessment, and vaccination guidance are part of care at the Puppalguda clinic.",
+          "Yes. Newborn checkups, feeding guidance, breastfeeding support, weight monitoring, jaundice assessment, and vaccination guidance are part of care at the Hyderabad clinic.",
       },
       {
         question: "Can both parents attend?",
@@ -225,12 +225,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to know more about newborn care.",
     related: ["newborn-care", "child-vaccination", "child-nutrition"],
-    seoTitle: "Newborn Care in Puppalguda",
+    seoTitle: "Newborn Care in Hyderabad",
     seoDescription:
-      "Newborn checkups, feeding support, jaundice assessment and weight monitoring at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+      "Newborn checkups, feeding support, jaundice assessment and weight monitoring at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/newborn-care.webp",
-      alt: "Newborn baby resting on a soft blanket during newborn care at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Newborn baby resting on a soft blanket during newborn care at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 710,
     },
@@ -287,12 +287,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to book a well-child checkup.",
     related: ["child-nutrition", "developmental-assessment", "child-vaccination"],
-    seoTitle: "Well-Child Visits in Puppalguda",
+    seoTitle: "Well-Child Visits in Hyderabad",
     seoDescription:
-      "Routine child health checkups in Puppalguda for growth, development and preventive care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T.",
+      "Routine child health checkups in Hyderabad for growth, development and preventive care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/well-child-visits.webp",
-      alt: "Paediatrician examining a young child’s throat during a well-child visit at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Paediatrician examining a young child’s throat during a well-child visit at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 683,
     },
@@ -349,12 +349,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to discuss my child’s growth and nutrition.",
     related: ["newborn-care", "well-child-visits", "obesity-puberty"],
-    seoTitle: "Child Nutrition and Growth in Puppalguda",
+    seoTitle: "Child Nutrition and Growth in Hyderabad",
     seoDescription:
-      "Growth monitoring and child nutrition guidance in Puppalguda at Tiny Totz Kids Clinic. Consult Dr. Shilpa Reddy T about feeding, weight and everyday meals.",
+      "Growth monitoring and child nutrition guidance in Hyderabad at Tiny Totz Kids Clinic. Consult Dr. Shilpa Reddy T about feeding, weight and everyday meals.",
     image: {
       src: "/images/services/nutrition-assessment.webp",
-      alt: "Healthy baby with fresh fruits illustrating child nutrition and growth care at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Healthy baby with fresh fruits illustrating child nutrition and growth care at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 564,
     },
@@ -411,12 +411,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to know more about allergy and asthma care for my child.",
     related: ["common-childhood-illnesses", "well-child-visits", "newborn-care"],
-    seoTitle: "Child Allergy and Asthma Care in Puppalguda",
+    seoTitle: "Child Allergy and Asthma Care in Hyderabad",
     seoDescription:
-      "Paediatric care for childhood wheezing, recurrent cough and allergy concerns at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+      "Paediatric care for childhood wheezing, recurrent cough and allergy concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/allergies-asthma.webp",
-      alt: "Young child with allergy symptoms during paediatric allergy and asthma care at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Young child with allergy symptoms during paediatric allergy and asthma care at Tiny Totz Kids Clinic in Hyderabad",
       width: 724,
       height: 483,
     },
@@ -473,12 +473,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to book a consultation about my child’s growth.",
     related: ["child-nutrition", "well-child-visits", "developmental-assessment"],
-    seoTitle: "Child Weight and Puberty Concerns in Puppalguda",
+    seoTitle: "Child Weight and Puberty Concerns in Hyderabad",
     seoDescription:
-      "Respectful paediatric consultations for weight and puberty concerns at Tiny Totz Kids Clinic in Puppalguda with Dr. Shilpa Reddy T.",
+      "Respectful paediatric consultations for weight and puberty concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/obesity-puberty.webp",
-      alt: "Child standing on a weight scale during obesity and puberty consultation at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Child standing on a weight scale during obesity and puberty consultation at Tiny Totz Kids Clinic in Hyderabad",
       width: 590,
       height: 393,
     },
@@ -535,12 +535,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to discuss my child’s development.",
     related: ["well-child-visits", "seizure-developmental-care", "newborn-care"],
-    seoTitle: "Child Development Concerns in Puppalguda",
+    seoTitle: "Child Development Concerns in Hyderabad",
     seoDescription:
-      "Developmental discussions for speech, movement and milestones at Tiny Totz Kids Clinic in Puppalguda with paediatrician Dr. Shilpa Reddy T.",
+      "Developmental discussions for speech, movement and milestones at Tiny Totz Kids Clinic in Hyderabad with paediatrician Dr. Shilpa Reddy T.",
     image: {
       src: "/images/services/developmental-concerns.webp",
-      alt: "Young child with learning materials during developmental assessment at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Young child with learning materials during developmental assessment at Tiny Totz Kids Clinic in Hyderabad",
       width: 1006,
       height: 575,
     },
@@ -597,12 +597,12 @@ export const services: Service[] = [
     whatsappMessage:
       "Hello Tiny Totz Kids Clinic, I would like to book a follow-up consultation after a suspected seizure.",
     related: ["developmental-assessment", "common-childhood-illnesses", "well-child-visits"],
-    seoTitle: "Seizure Concerns in Children, Puppalguda",
+    seoTitle: "Seizure Concerns in Children, Hyderabad",
     seoDescription:
-      "Paediatric review of suspected seizures after the episode has settled, at Tiny Totz Kids Clinic in Puppalguda. Active seizures need emergency care.",
+      "Paediatric review of suspected seizures after the episode has settled, at Tiny Totz Kids Clinic in Hyderabad. Active seizures need emergency care.",
     image: {
       src: "/images/services/seizures-development.webp",
-      alt: "Parent comforting a child in bed after a concerning episode, seizure evaluation support at Tiny Totz Kids Clinic in Puppalguda, Hyderabad",
+      alt: "Parent comforting a child in bed after a concerning episode, seizure evaluation support at Tiny Totz Kids Clinic in Hyderabad",
       width: 1024,
       height: 682,
     },

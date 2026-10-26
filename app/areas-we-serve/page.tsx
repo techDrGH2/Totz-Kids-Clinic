@@ -8,9 +8,9 @@ import { webPageSchema } from "@/lib/schema";
 import { areas, nearbyAreaNames } from "@/lib/locations";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Areas We Serve from Puppalguda",
+  title: "Areas We Serve from Hyderabad",
   description:
-    "Tiny Totz Kids Clinic is in Puppalguda and sees families from Manikonda, Lanco Hills, Khajaguda, Narsingi, Kokapet and nearby Hyderabad neighbourhoods.",
+    "Tiny Totz Kids Clinic is in Hyderabad and sees families from Manikonda, Lanco Hills, Khajaguda, Narsingi, Kokapet and nearby Hyderabad neighbourhoods.",
   path: "/areas-we-serve",
 });
 
@@ -21,7 +21,7 @@ export default function AreasPage() {
         data={webPageSchema({
           path: "/areas-we-serve",
           name: "Areas served by Tiny Totz Kids Clinic",
-          description: "Neighbourhoods whose families visit the Puppalguda clinic.",
+          description: "Neighbourhoods whose families visit the Hyderabad clinic.",
         })}
       />
       <header className="border-b border-line bg-mist">

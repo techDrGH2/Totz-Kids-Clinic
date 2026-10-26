@@ -4,7 +4,7 @@ This file is a factual description of the public website. It does not add creden
 
 ## Identity
 
-Tiny Totz Kids Clinic is a paediatric clinic in Puppalguda, Hyderabad, Telangana, India.
+Tiny Totz Kids Clinic is a paediatric clinic in Hyderabad, Telangana, India.
 
 Doctor: Dr. Shilpa Reddy T
 Qualifications published by the clinic: MBBS, DNB Pediatrics, IDPCCM
@@ -18,7 +18,7 @@ The previous clinic website published a 5.0 Google rating and 80+ patient review
 2nd Floor, C Block, DNS Business Hub
 Opposite Alanati Restaurant
 Plus code: C928+935
-Puppalguda, Hyderabad, Telangana 500089, India
+Hyderabad, Telangana 500089, India
 
 Phone and WhatsApp: +91 7815933120
 Email: tinytotzkidsofficial@gmail.com
@@ -30,11 +30,11 @@ There is one clinic. The site does not claim branches.
 
 ## Who the clinic sees
 
-Newborns, infants, children and adolescents. Families living in Puppalguda, and families who travel from Manikonda, Lanco Hills, Khajaguda, Langer House, Narsingi, Kokapet, Financial District and Nanakramguda.
+Newborns, infants, children and adolescents. Families living in Hyderabad, and families who travel from Manikonda, Lanco Hills, Khajaguda, Langer House, Narsingi, Kokapet, Financial District and Nanakramguda.
 
 Dedicated area pages exist only where the copy is specific:
 
-- https://tinytotzclinic.com/areas-we-serve/puppalguda
+- https://tinytotzclinic.com/areas-we-serve/hyderabad
 - https://tinytotzclinic.com/areas-we-serve/manikonda
 - https://tinytotzclinic.com/areas-we-serve/lanco-hills
 - https://tinytotzclinic.com/areas-we-serve/khajaguda

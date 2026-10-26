@@ -8,18 +8,18 @@ import { ClinicPhoto } from "@/components/ClinicPhoto";
 import { JsonLd } from "@/components/JsonLd";
 import { MedicalDisclaimer } from "@/components/MedicalDisclaimer";
 import { btnNavy, btnPrimary, btnSecondary, TrackedLink } from "@/components/TrackedLink";
-import { addressInline, clinic, trustStats } from "@/lib/clinic";
+import { addressInline, clinic, placeLabel, trustStats } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { pageMetadata } from "@/lib/seo";
 import { physicianSchema, webPageSchema } from "@/lib/schema";
 
 const title =
-  "Dr. Shilpa Reddy T - Paediatrician & Pediatric Intensivist in Puppalguda";
+  "Dr. Shilpa Reddy T - Paediatrician & Pediatric Intensivist in Hyderabad";
 
 export const metadata: Metadata = pageMetadata({
   title,
   description:
-    "Dr. Shilpa Reddy T, MBBS, DNB Pediatrics, IDPCCM, is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Puppalguda, Hyderabad.",
+    "Dr. Shilpa Reddy T, MBBS, DNB Pediatrics, IDPCCM, is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad.",
   path: "/doctor",
   absoluteTitle: true,
 });
@@ -32,7 +32,7 @@ export default function DoctorPage() {
           path: "/doctor",
           name: title,
           description:
-            "Professional profile of Dr. Shilpa Reddy T at Tiny Totz Kids Clinic, Puppalguda.",
+            "Professional profile of Dr. Shilpa Reddy T at Tiny Totz Kids Clinic, Hyderabad.",
         })}
       />
       <JsonLd data={physicianSchema()} />
@@ -55,7 +55,7 @@ export default function DoctorPage() {
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-muted md:text-lg md:leading-8">
               {doctor.qualificationsInline} · Consulting at {clinic.name},{" "}
-              {clinic.address.area}, {clinic.address.city}.
+              {placeLabel()}.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">

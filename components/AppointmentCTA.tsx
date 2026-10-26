@@ -5,7 +5,7 @@ import { doctor } from "@/lib/doctor";
 import { whatsappMessages, whatsappUrl } from "@/lib/whatsapp";
 
 export function AppointmentCTA({
-  heading = "Looking for a paediatrician in Puppalguda?",
+  heading = "Looking for a paediatrician in Hyderabad?",
   text = `Book a consultation with ${doctor.name} at ${clinic.name}.`,
   whatsappMessage = whatsappMessages.general,
   eventLabel = "final-cta",

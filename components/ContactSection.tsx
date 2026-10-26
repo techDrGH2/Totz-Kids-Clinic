@@ -26,7 +26,7 @@ export function ContactSection() {
             id="location-heading"
             className="mt-4 font-serif text-3xl text-navy md:text-5xl"
           >
-            The clinic in Puppalguda
+            The clinic in Hyderabad
           </h2>
 
           <address className="mt-6 space-y-1 text-base leading-7 text-ink not-italic">
@@ -130,7 +130,7 @@ export function ContactSection() {
           <div className="relative h-full min-h-80 overflow-hidden rounded-[1.75rem] border border-white/70 bg-white p-2 shadow-[0_18px_40px_rgba(37,38,74,0.08)]">
             <div className="relative h-full min-h-[18rem] overflow-hidden rounded-[1.35rem] bg-mist md:min-h-full">
               <iframe
-                title="Map showing DNS Business Hub, Puppalguda, where Tiny Totz Kids Clinic is located"
+                title="Map showing DNS Business Hub, Hyderabad, where Tiny Totz Kids Clinic is located"
                 src={clinic.maps.embedUrl}
                 className="absolute inset-0 h-full w-full"
                 loading="lazy"

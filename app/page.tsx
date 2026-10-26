@@ -21,14 +21,14 @@ import { pageMetadata } from "@/lib/seo";
 import { faqSchema, homeFaqs, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Tiny Totz Kids Clinic | Paediatrician in Puppalguda, Hyderabad",
+  title: "Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
   description:
-    "Tiny Totz Kids Clinic provides paediatric care in Puppalguda, Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
+    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
   path: "/",
   absoluteTitle: true,
   image: "/images/doctor/hero-paediatric-care.webp",
   imageAlt:
-    "Paediatric care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T in Puppalguda, Hyderabad",
+    "Paediatric care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T in Hyderabad",
 });
 
 export default function HomePage() {
@@ -37,9 +37,9 @@ export default function HomePage() {
       <JsonLd
         data={webPageSchema({
           path: "/",
-          name: "Paediatrician in Puppalguda, Hyderabad | Tiny Totz Kids Clinic",
+          name: "Paediatrician in Hyderabad | Tiny Totz Kids Clinic",
           description:
-            "Paediatric clinic in Puppalguda led by Dr. Shilpa Reddy T, offering newborn care, vaccination guidance and child health consultations.",
+            "Paediatric clinic in Hyderabad led by Dr. Shilpa Reddy T, offering newborn care, vaccination guidance and child health consultations.",
         })}
       />
       <JsonLd data={faqSchema(homeFaqs())} />
@@ -62,7 +62,7 @@ export default function HomePage() {
               id="clinic-intro-heading"
               className="mt-4 max-w-xl font-serif text-3xl text-navy md:text-5xl"
             >
-              A trusted paediatrician in Puppalguda, Hyderabad
+              A trusted paediatrician in Hyderabad
             </h2>
             <div className="prose-clinic mt-5 max-w-xl text-base leading-7 text-ink">
               <p>
@@ -87,7 +87,7 @@ export default function HomePage() {
               className="mb-4 block h-1 w-12 rounded-full bg-gradient-to-r from-teal via-[#ffc83d] to-coral"
             />
             <h3 className="font-serif text-2xl text-navy md:text-[1.7rem]">
-              Who is the paediatrician in Puppalguda?
+              Who is the paediatrician in Hyderabad?
             </h3>
             <p className="mt-3 text-sm leading-6 text-muted">
               {doctor.name} consults at {clinic.name}, {addressInline()}. Call{" "}
@@ -248,7 +248,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-[1.35rem]">
                 <Image
                   src="/images/services/child-vaccination.webp"
-                  alt="Child receiving vaccination at Tiny Totz Kids Clinic, paediatric immunisation in Puppalguda, Hyderabad"
+                  alt="Child receiving vaccination at Tiny Totz Kids Clinic, paediatric immunisation in Hyderabad"
                   width={1024}
                   height={682}
                   sizes="(min-width: 768px) 420px, 100vw"

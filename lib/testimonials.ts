@@ -1,4 +1,4 @@
-import { clinic } from "@/lib/clinic";
+import { clinic, placeLabel } from "@/lib/clinic";
 
 export type Testimonial = {
   id: string;
@@ -61,4 +61,4 @@ export const testimonialIntro =
   "Hear from parents about their experiences with Dr. Shilpa Reddy and the care provided at Tiny Totz Kids Clinic.";
 
 /** Provenance only. These comments are not a verified Google rating or review count. */
-export const testimonialNote = `Previously published on the ${clinic.name} website. These are parent comments about paediatric care in ${clinic.address.area}, ${clinic.address.city}, not a live Google review feed.`;
+export const testimonialNote = `Previously published on the ${clinic.name} website. These are parent comments about paediatric care in ${placeLabel()}, not a live Google review feed.`;

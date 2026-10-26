@@ -3,7 +3,7 @@ import { ArrowUpRight, Clock, Mail, MapPin, Phone } from "lucide-react";
 import type { ReactNode } from "react";
 import { BookAppointmentButton } from "@/components/AppointmentBooking";
 import { Logo } from "@/components/Logo";
-import { addressLines, clinic, medicalDisclaimer } from "@/lib/clinic";
+import { addressLines, clinic, medicalDisclaimer, placeLabel } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { footerCareNav, footerExploreNav, legalNav } from "@/lib/navigation";
 
@@ -27,15 +27,14 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <Logo
                 className="h-14 w-auto"
-                alt={`${clinic.name} logo - paediatric clinic in Puppalguda, Hyderabad`}
+                alt={`${clinic.name} logo - paediatric clinic in Hyderabad`}
               />
             </Link>
             <p className="mt-1 text-sm font-medium tracking-[0.04em] text-teal">
               {clinic.tagline}
             </p>
             <p className="mt-4 max-w-sm text-sm leading-6 text-white/72">
-              Paediatric consultations in {clinic.address.area},{" "}
-              {clinic.address.city}, with {doctor.name}. Quiet, focused visits
+              Paediatric consultations in {placeLabel()}, with {doctor.name}. Quiet, focused visits
               for newborns through school age.
             </p>
             <p className="mt-3 text-sm text-white/55">
@@ -106,9 +105,7 @@ export function Footer() {
                     {visitLines[0]}
                   </span>
                   <span className="block">
-                    <span itemProp="addressLocality">{clinic.address.area}</span>
-                    {", "}
-                    <span itemProp="addressRegion">{clinic.address.city}</span>
+                    <span itemProp="addressLocality">{placeLabel()}</span>
                   </span>
                   <span className="block">
                     <span itemProp="addressRegion">{clinic.address.state}</span>{" "}

@@ -12,7 +12,7 @@ You are building a **Next.js 14+ healthcare website** (App Router) for:
 - **Client type**: `{{| clinic |}}`
 - **Specialty**: `{{MBBS, DNB Pediatrics, IDPCCM Consultant Pediatrician & Pediatric Intensivist}}`
 - **Business name**: `{{ Tiny Totz Kids Clinic.}}`
-- **Location(s)**: `{{Puppalguda,hyderabd}}`
+- **Location(s)**: `{{Hyderabad,hyderabd}}`
 - **Primary services**: `{{Common Illness Management,Vaccination,Newborn Care,Well-Child Visits,Nutrition Assessment & Diet Advice,Allergies & Asthma,Obesity & Puberty Issues,Seizures & Developmental Abnormalities}}`
 - **Languages served**: `{{e.g. English, Telugu, Hindi}}`
 - **Domain**: `{{https://tinytotzclinic.com/}}`

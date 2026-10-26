@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { clinic, siteUrl } from "@/lib/clinic";
+import { clinic, placeLabel, siteUrl } from "@/lib/clinic";
 import { posts } from "@/lib/blog";
 import { areas } from "@/lib/locations";
 import { services } from "@/lib/services";
@@ -14,19 +14,16 @@ const defaultOgImage = {
   url: absoluteUrl("/opengraph-image"),
   width: 1200,
   height: 630,
-  alt: `${clinic.name} - paediatrician and child healthcare in ${clinic.address.area}, ${clinic.address.city}`,
+  alt: `${clinic.name} - paediatrician and child healthcare in ${placeLabel()}`,
 } as const;
 
 export const seoKeywords = [
-  "pediatrician in Puppalguda",
+  "pediatrician in Hyderabad",
   "paediatrician in Hyderabad",
-  "paediatrician in Puppalguda",
-  "child specialist in Puppalguda",
   "child specialist in Hyderabad",
   "newborn care clinic Hyderabad",
   "kids vaccination clinic Hyderabad",
-  "kids vaccination clinic Puppalguda",
-  "child health clinic Puppalguda",
+  "child health clinic Hyderabad",
   "allergies and asthma child clinic Hyderabad",
   "nutrition growth clinic for children Hyderabad",
   "Tiny Totz Kids Clinic",
@@ -143,7 +140,7 @@ export function pageMetadata({
     },
     other: {
       "geo.region": "IN-TG",
-      "geo.placename": `${clinic.address.area}, ${clinic.address.city}, ${clinic.address.state}`,
+      "geo.placename": `${placeLabel()}, ${clinic.address.state}`,
       "geo.position": `${clinic.maps.geo.latitude};${clinic.maps.geo.longitude}`,
       ICBM: `${clinic.maps.geo.latitude}, ${clinic.maps.geo.longitude}`,
       "theme-color": "#25264a",

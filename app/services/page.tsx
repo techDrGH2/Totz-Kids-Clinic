@@ -7,9 +7,9 @@ import { webPageSchema } from "@/lib/schema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Paediatric Services in Puppalguda, Hyderabad",
+  title: "Paediatric Services in Hyderabad",
   description:
-    "Paediatric services at Tiny Totz Kids Clinic in Puppalguda: newborn care, vaccination, illness visits, nutrition, allergies, asthma, development and well-child checkups.",
+    "Paediatric services at Tiny Totz Kids Clinic in Hyderabad: newborn care, vaccination, illness visits, nutrition, allergies, asthma, development and well-child checkups.",
   path: "/services",
 });
 
@@ -19,7 +19,7 @@ export default function ServicesPage() {
       <JsonLd
         data={webPageSchema({
           path: "/services",
-          name: "Paediatric Services in Puppalguda, Hyderabad",
+          name: "Paediatric Services in Hyderabad",
           description: "Child healthcare services at Tiny Totz Kids Clinic.",
         })}
       />
@@ -28,7 +28,7 @@ export default function ServicesPage() {
           <Breadcrumbs items={[{ name: "Services", href: "/services" }]} />
           <p className="eyebrow">Services</p>
           <h1 className="mt-3 max-w-3xl font-serif text-4xl text-navy md:text-5xl">
-            Paediatric services in Puppalguda, Hyderabad
+            Paediatric services in Hyderabad
           </h1>
           <p className="mt-5 max-w-3xl border-l-2 border-teal pl-4 text-lg leading-8">
             Tiny Totz Kids Clinic offers paediatric consultations for newborns, infants,

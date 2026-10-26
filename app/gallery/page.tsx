@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Clinic Gallery",
   description:
-    "Photographs of Dr. Shilpa Reddy T and Tiny Totz Kids Clinic in Puppalguda will be published here. Placeholders mark where each real image belongs.",
+    "Photographs of Dr. Shilpa Reddy T and Tiny Totz Kids Clinic in Hyderabad will be published here. Placeholders mark where each real image belongs.",
   path: "/gallery",
 });
 

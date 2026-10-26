@@ -10,16 +10,16 @@ import { DoctorProfile } from "@/components/DoctorProfile";
 import { JsonLd } from "@/components/JsonLd";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { btnNavy, btnPrimary } from "@/components/TrackedLink";
-import { addressInline, clinic, trustStats } from "@/lib/clinic";
+import { addressInline, clinic, placeLabel, trustStats } from "@/lib/clinic";
 import { doctor } from "@/lib/doctor";
 import { pageMetadata } from "@/lib/seo";
 import { webPageSchema } from "@/lib/schema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = pageMetadata({
-  title: "About Tiny Totz Kids Clinic | Paediatrician in Puppalguda",
+  title: "About Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
   description:
-    "About Tiny Totz Kids Clinic in Puppalguda, Hyderabad. Child-centred paediatric consultations with Dr. Shilpa Reddy T for newborns, children and adolescents.",
+    "About Tiny Totz Kids Clinic in Hyderabad. Child-centred paediatric consultations with Dr. Shilpa Reddy T for newborns, children and adolescents.",
   path: "/about",
   absoluteTitle: true,
 });
@@ -47,7 +47,7 @@ export default function AboutPage() {
           path: "/about",
           name: "About Tiny Totz Kids Clinic",
           description:
-            "About the paediatric clinic in Puppalguda and how consultations are run.",
+            "About the paediatric clinic in Hyderabad and how consultations are run.",
         })}
       />
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
             A paediatric clinic built around calm, clear care
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
-            {clinic.name} in {clinic.address.area}, {clinic.address.city}, offers
+            {clinic.name} in {placeLabel()}, offers
             child-centred consultations with {doctor.name} -{" "}
             {doctor.role.toLowerCase()}.
           </p>
@@ -110,7 +110,7 @@ export default function AboutPage() {
               id="clinic-story-heading"
               className="mt-4 max-w-xl font-serif text-3xl text-navy md:text-4xl"
             >
-              Child-centred paediatric care in Puppalguda
+              Child-centred paediatric care in Hyderabad
             </h2>
             <div className="prose-clinic mt-5 max-w-xl text-base leading-7 text-ink">
               <p>
@@ -148,7 +148,7 @@ export default function AboutPage() {
                     Location
                   </p>
                   <p className="mt-1 text-sm leading-6 text-ink">
-                    {clinic.address.area}, {clinic.address.city}
+                    {placeLabel()}
                     <span className="mt-1 block text-muted">{addressInline()}</span>
                   </p>
                 </div>
@@ -319,7 +319,7 @@ export default function AboutPage() {
       <ClinicGlance />
       <ContactSection />
       <AppointmentCTA
-        heading="Book a visit at the Puppalguda clinic"
+        heading="Book a visit at the Hyderabad clinic"
         text="Call, WhatsApp, or send an appointment request. The clinic confirms the time."
         eventLabel="about-cta"
       />
