@@ -43,6 +43,7 @@ export default function HomePage() {
         })}
       />
       <JsonLd data={faqSchema(homeFaqs())} />
+      <div className="home-page">
       <Hero />
       <TrustStats />
 
@@ -285,6 +286,7 @@ export default function HomePage() {
       <ClinicGlance />
       <ContactSection />
       <AppointmentCTA />
+      </div>
     </>
   );
 }
