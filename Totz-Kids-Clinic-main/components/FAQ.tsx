@@ -36,9 +36,9 @@ export function FAQ({
                 key={columnIndex}
                 className="rounded-[1.5rem] border border-line bg-white/80 p-4 shadow-sm md:p-5"
               >
-                {column.map((item) => (
+                {column.map((item, itemIndex) => (
                   <details
-                    key={item.question}
+                    key={`${columnIndex}-${itemIndex}-${item.question}`}
                     className="group border-b border-line py-1 last:border-b-0"
                     itemScope
                     itemProp="mainEntity"

@@ -27,9 +27,8 @@ export function ServiceView({ service }: { service: Service }) {
   const related = relatedServices(service);
   const relatedPosts = relatedPostsForService(service.slug);
   const longform = getServiceLongform(service.slug);
-  const faqs = longform
-    ? [...service.faqs, ...longform.faqs]
-    : service.faqs;
+  // Longform FAQs supersede the short service list (avoids duplicate questions in the UI).
+  const faqs = longform?.faqs.length ? longform.faqs : service.faqs;
   const glance = serviceGlanceItems(service);
 
   return (
