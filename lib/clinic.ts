@@ -2,7 +2,7 @@
  * Single source for clinic facts. Update phone, hours, address, and
  * published figures here - do not copy them into page components.
  *
- * Hours: the clinic website publishes Monday-Saturday, 6:00 PM-9:00 PM.
+ * Hours: Monday-Saturday 6:00 PM-9:00 PM; Sunday 10:00 AM-12:30 PM.
  * A third-party listing has shown Monday-Friday only. Confirm before changing.
  *
  * Review figures: the previous website published 12+ years, a 5.0 Google
@@ -45,10 +45,10 @@ export const clinic = {
   },
   hours: {
     summary: "Monday-Saturday, 6:00 PM - 9:00 PM",
-    closed: "Sunday",
+    sunday: "Sunday, 10:00 AM - 12:30 PM",
     lines: [
       { label: "Monday - Saturday", value: "6:00 PM - 9:00 PM" },
-      { label: "Sunday", value: "Closed" },
+      { label: "Sunday", value: "10:00 AM - 12:30 PM" },
     ],
     specification: [
       {
@@ -62,6 +62,11 @@ export const clinic = {
         ],
         opens: "18:00",
         closes: "21:00",
+      },
+      {
+        days: ["Sunday"],
+        opens: "10:00",
+        closes: "12:30",
       },
     ],
     note: "Please call or WhatsApp to confirm before you visit.",

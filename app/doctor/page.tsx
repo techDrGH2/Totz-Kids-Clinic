@@ -295,7 +295,7 @@ export default function DoctorPage() {
                     <p className="mt-1 text-sm leading-6 text-ink">
                       {clinic.hours.summary}
                       <span className="mt-1 block text-muted">
-                        {clinic.hours.closed} closed
+                        {clinic.hours.sunday}
                       </span>
                     </p>
                   </div>

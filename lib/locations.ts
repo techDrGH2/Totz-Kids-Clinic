@@ -47,7 +47,7 @@ export const areas: AreaPage[] = [
         heading: "Finding the clinic",
         paragraphs: [
           `The address is ${address}. The clinic is inside DNS Business Hub, not a street-level shop. Call ${phone} if you need help finding C Block.`,
-          `Evening consultations are published as ${hours}. Sunday is closed. If you are new to the building, call ${phone} when you arrive and the clinic can help you with the floor.`,
+          `Evening consultations are published as ${hours}. ${clinic.hours.sunday}. If you are new to the building, call ${phone} when you arrive and the clinic can help you with the floor.`,
         ],
       },
       {
@@ -66,7 +66,7 @@ export const areas: AreaPage[] = [
       },
       {
         question: "What time does the Hyderabad clinic open?",
-        answer: `The published hours are ${hours}. Sunday is closed. Call or WhatsApp ${phone} to confirm a slot before you travel.`,
+        answer: `The published hours are ${hours}. ${clinic.hours.sunday}. Call or WhatsApp ${phone} to confirm a slot before you travel.`,
       },
     ],
   },

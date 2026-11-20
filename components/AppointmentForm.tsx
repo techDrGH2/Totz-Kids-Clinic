@@ -5,7 +5,7 @@ import { requestAppointment } from "@/app/appointment/actions";
 import { trackEvent } from "@/lib/analytics";
 import {
   appointmentReasons,
-  appointmentTimes,
+  getAppointmentTimes,
   appointmentWhatsAppMessage,
   validateAppointment,
   type AppointmentInput,
@@ -42,8 +42,22 @@ export function AppointmentForm({
   >(null);
 
   function update<K extends keyof AppointmentInput>(key: K, value: AppointmentInput[K]) {
-    setValues((current) => ({ ...current, [key]: value }));
+    setValues((current) => {
+      const next = { ...current, [key]: value };
+      if (key === "date") {
+        const times = getAppointmentTimes(String(value));
+        if (next.time && !(times as readonly string[]).includes(next.time)) {
+          next.time = "";
+        }
+      }
+      return next;
+    });
   }
+
+  const availableTimes = getAppointmentTimes(values.date);
+  const isSunday =
+    values.date &&
+    new Date(`${values.date}T12:00:00+05:30`).getDay() === 0;
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -147,7 +161,7 @@ export function AppointmentForm({
           aria-describedby={errors.time ? "time-error" : undefined}
         >
           <option value="">Select a time</option>
-          {appointmentTimes.map((time) => (
+          {availableTimes.map((time) => (
             <option key={time} value={time}>
               {time}
             </option>
@@ -158,7 +172,11 @@ export function AppointmentForm({
             {errors.time}
           </p>
         ) : (
-          <p className="mt-1 text-xs text-muted">Evening clinic hours are 6:00 PM - 9:00 PM.</p>
+          <p className="mt-1 text-xs text-muted">
+            {isSunday
+              ? "Sunday clinic hours are 10:00 AM - 12:30 PM."
+              : "Evening clinic hours are 6:00 PM - 9:00 PM."}
+          </p>
         )}
       </div>
       <div>

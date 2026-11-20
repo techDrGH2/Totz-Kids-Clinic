@@ -139,7 +139,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Tiny Totz Kids Clinic publishes evening consultations Monday to Saturday, 6:00 PM to 9:00 PM, and is closed on Sunday. Those hours suit many planned newborn reviews. They are not a substitute for emergency care.",
+        text: "Tiny Totz Kids Clinic publishes evening consultations Monday to Saturday, 6:00 PM to 9:00 PM, and Sunday 10:00 AM to 12:30 PM. Those hours suit many planned newborn reviews. They are not a substitute for emergency care.",
       },
       {
         type: "ul",

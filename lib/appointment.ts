@@ -56,13 +56,19 @@ export function validateAppointment(input: AppointmentInput) {
     today.setHours(0, 0, 0, 0);
     if (Number.isNaN(chosen.getTime()) || chosen < today) {
       errors.date = "Choose today or a future date.";
-    } else if (chosen.getDay() === 0) {
-      errors.date = "The clinic is closed on Sunday. Choose Monday to Saturday.";
     }
   }
 
   if (!input.time) {
     errors.time = "Choose a preferred time.";
+  } else if (input.date) {
+    const allowed = getAppointmentTimes(input.date);
+    if (!(allowed as readonly string[]).includes(input.time)) {
+      errors.time =
+        getDayOfWeek(input.date) === 0
+          ? "Choose a Sunday morning time (10:00 AM - 12:30 PM)."
+          : "Choose an evening time (6:00 PM - 9:00 PM).";
+    }
   }
 
   if (!reasons.includes(input.reason as (typeof reasons)[number])) {
@@ -92,7 +98,7 @@ export function appointmentWhatsAppMessage(input: AppointmentInput) {
   return lines.join("\n");
 }
 
-export const appointmentTimes = [
+export const weekdayAppointmentTimes = [
   "6:00 PM",
   "6:30 PM",
   "7:00 PM",
@@ -100,3 +106,26 @@ export const appointmentTimes = [
   "8:00 PM",
   "8:30 PM",
 ] as const;
+
+export const sundayAppointmentTimes = [
+  "10:00 AM",
+  "10:30 AM",
+  "11:00 AM",
+  "11:30 AM",
+  "12:00 PM",
+] as const;
+
+export const appointmentTimes = weekdayAppointmentTimes;
+
+function getDayOfWeek(date: string) {
+  return new Date(`${date}T12:00:00+05:30`).getDay();
+}
+
+export function getAppointmentTimes(date: string) {
+  if (!date || Number.isNaN(getDayOfWeek(date))) {
+    return weekdayAppointmentTimes;
+  }
+  return getDayOfWeek(date) === 0
+    ? sundayAppointmentTimes
+    : weekdayAppointmentTimes;
+}

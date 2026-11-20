@@ -24,7 +24,7 @@ Phone and WhatsApp: +91 7815933120
 Email: tinytotzkidsofficial@gmail.com
 Website: https://tinytotzclinic.com/
 
-Hours published by the clinic website: Monday-Saturday, 6:00 PM-9:00 PM. Sunday closed. Visitors are asked to confirm before travelling. A third-party directory has listed Monday-Friday only; the site follows the clinic's own published Monday-Saturday hours until the clinic changes lib/clinic.ts.
+Hours published by the clinic website: Monday-Saturday, 6:00 PM-9:00 PM. Sunday, 10:00 AM-12:30 PM. Visitors are asked to confirm before travelling. A third-party directory has listed Monday-Friday only; the site follows the clinic's own published hours in lib/clinic.ts.
 
 There is one clinic. The site does not claim branches.
 

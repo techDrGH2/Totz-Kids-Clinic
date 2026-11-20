@@ -39,7 +39,9 @@ export default function AppointmentPage() {
               {clinic.phoneDisplay}
             </a>
           </p>
-          <p className="mt-3">{clinic.hours.summary}. Sunday is closed.</p>
+          <p className="mt-3">
+            {clinic.hours.summary}. {clinic.hours.sunday}.
+          </p>
           <p className="mt-3">{clinic.hours.note}</p>
           <p className="mt-3">
             If your child is struggling to breathe, is unresponsive, or is having a

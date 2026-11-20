@@ -138,7 +138,7 @@ export function Footer() {
                   <span>
                     {clinic.hours.summary}
                     <span className="mt-0.5 block text-white/50">
-                      {clinic.hours.closed} closed
+                      {clinic.hours.sunday}
                     </span>
                   </span>
                 </ContactRow>

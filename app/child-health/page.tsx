@@ -100,7 +100,7 @@ export default function ChildHealthPage() {
           <aside className="h-fit border border-line bg-sand p-5">
             <h2 className="font-serif text-2xl text-navy">Clinic hours</h2>
             <p className="mt-3 text-sm leading-6">
-              {clinic.hours.summary}. Sunday is closed. {clinic.hours.note}
+              {clinic.hours.summary}. {clinic.hours.sunday}. {clinic.hours.note}
             </p>
             <p className="mt-4 text-sm leading-6">
               {addressInline()}. Call {clinic.phoneDisplay}.

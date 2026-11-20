@@ -70,7 +70,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How can I book an appointment?",
     answer:
-      `Call ${clinic.phoneDisplay}, or use the appointment form on this website. The clinic is at ${addressInline()}. The form collects a preferred time. Until an online booking system is connected, the clinic confirms the visit by phone or WhatsApp. Consultations are published as Monday to Saturday, 6:00 PM to 9:00 PM.`,
+      `Call ${clinic.phoneDisplay}, or use the appointment form on this website. The clinic is at ${addressInline()}. The form collects a preferred time. Until an online booking system is connected, the clinic confirms the visit by phone or WhatsApp. Consultations are published as ${clinic.hours.summary}; ${clinic.hours.sunday}.`,
   },
 ];
 
