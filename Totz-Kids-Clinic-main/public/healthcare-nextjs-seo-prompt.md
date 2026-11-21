@@ -1,4 +1,4 @@
-# Healthcare Website - SEO / AEO / GEO / Schema Cursor Prompt
+﻿# Healthcare Website - SEO / AEO / GEO / Schema Cursor Prompt
 
 > Paste this into `.cursorrules` or your Cursor project instructions file.
 > Replace `{{PLACEHOLDERS}}` per client before use.
@@ -15,7 +15,7 @@ You are building a **Next.js 14+ healthcare website** (App Router) for:
 - **Location(s)**: `{{Hyderabad,hyderabd}}`
 - **Primary services**: `{{Common Illness Management,Vaccination,Newborn Care,Well-Child Visits,Nutrition Assessment & Diet Advice,Allergies & Asthma,Obesity & Puberty Issues,Seizures & Developmental Abnormalities}}`
 - **Languages served**: `{{e.g. English, Telugu, Hindi}}`
-- **Domain**: `{{https://tinytotzclinic.com/}}`
+- **Domain**: `{{https://www.tinytotzclinic.com/}}`
 
 Your job is to implement **world-class on-page SEO, AEO, GEO, and Schema Markup** across every page, component, and route so this site ranks on Google, answers AI search engines (Perplexity, Gemini, ChatGPT, Bing Copilot), and appears in local map packs.
 
