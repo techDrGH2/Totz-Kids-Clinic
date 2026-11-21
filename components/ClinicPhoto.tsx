@@ -3,9 +3,14 @@ import path from "node:path";
 import Image from "next/image";
 
 function exists(src: string) {
-  return src.startsWith("http://") || src.startsWith("https://")
-    ? true
-    : fs.existsSync(path.join(process.cwd(), "public", src.replace(/^\//, "")));
+  if (src.startsWith("http://") || src.startsWith("https://")) return true;
+  // Public assets are served by the CDN; fs checks can fail on serverless hosts.
+  if (src.startsWith("/images/")) return true;
+  try {
+    return fs.existsSync(path.join(process.cwd(), "public", src.replace(/^\//, "")));
+  } catch {
+    return true;
+  }
 }
 
 type Props = {

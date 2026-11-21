@@ -12,7 +12,7 @@
  */
 
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://tinytotzclinic.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.tinytotzclinic.com"
 ).replace(/\/$/, "");
 
 export const medicalDisclaimer =

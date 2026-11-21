@@ -1,12 +1,12 @@
-# Tiny Totz Kids Clinic
+﻿# Tiny Totz Kids Clinic
 
-> Paediatric clinic in Hyderabad. One location. Consultations with Dr. Shilpa Reddy T.
+> Paediatric clinic in Hyderabad. One location. Consultations with Dr. Shilpa Reddy Tummala.
 
 ## Clinic
 
 - Name: Tiny Totz Kids Clinic
 - Specialty: Paediatrics
-- Doctor: Dr. Shilpa Reddy T
+- Doctor: Dr. Shilpa Reddy Tummala
 - Role: Consultant Paediatrician & Pediatric Intensivist
 - Qualifications: MBBS, DNB Pediatrics, IDPCCM
 - Address: 2nd Floor, C Block, DNS Business Hub, Hyderabad, Telangana 500089, India
@@ -17,7 +17,7 @@
 - Email: tinytotzkidsofficial@gmail.com
 - Hours: Monday-Saturday, 6:00 PM-9:00 PM
 - Sunday: 10:00 AM-12:30 PM
-- Website: https://tinytotzclinic.com/
+- Website: https://www.tinytotzclinic.com/
 
 ## Services
 
@@ -39,17 +39,17 @@ The clinic is in Hyderabad only. Families also visit from Manikonda, Lanco Hills
 
 ## Important pages
 
-- https://tinytotzclinic.com/
-- https://tinytotzclinic.com/about
-- https://tinytotzclinic.com/doctor
-- https://tinytotzclinic.com/services
-- https://tinytotzclinic.com/vaccination
-- https://tinytotzclinic.com/newborn-care
-- https://tinytotzclinic.com/child-health
-- https://tinytotzclinic.com/faq
-- https://tinytotzclinic.com/contact
-- https://tinytotzclinic.com/appointment
-- https://tinytotzclinic.com/medical-disclaimer
+- https://www.tinytotzclinic.com/
+- https://www.tinytotzclinic.com/about
+- https://www.tinytotzclinic.com/doctor
+- https://www.tinytotzclinic.com/services
+- https://www.tinytotzclinic.com/vaccination
+- https://www.tinytotzclinic.com/newborn-care
+- https://www.tinytotzclinic.com/child-health
+- https://www.tinytotzclinic.com/faq
+- https://www.tinytotzclinic.com/contact
+- https://www.tinytotzclinic.com/appointment
+- https://www.tinytotzclinic.com/medical-disclaimer
 
 ## Medical note
 
