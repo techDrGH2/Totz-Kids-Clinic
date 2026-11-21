@@ -10,7 +10,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Who is the paediatrician at Tiny Totz Kids Clinic?",
     answer:
-      "Dr. Shilpa Reddy T is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
+      "Dr. Shilpa Reddy Tummala is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
   },
   {
     question: "When should my child see a paediatrician?",
@@ -40,7 +40,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Do you manage childhood allergies and asthma?",
     answer:
-      "Yes. Dust allergy, food concerns, wheezing, and recurrent cough can be discussed with Dr. Shilpa Reddy T. Care is planned around the child’s history and examination. Emergency breathing difficulty needs urgent medical care, not a routine evening slot.",
+      "Yes. Dust allergy, food concerns, wheezing, and recurrent cough can be discussed with Dr. Shilpa Reddy Tummala. Care is planned around the child’s history and examination. Emergency breathing difficulty needs urgent medical care, not a routine evening slot.",
   },
   {
     question: "When should I be concerned about poor weight gain?",
@@ -55,7 +55,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How often should children have health checkups?",
     answer:
-      "Newborns are usually seen more often in the early weeks. After that, well-child visits are spaced through infancy, the toddler years, and school age, and are also timed with vaccination visits. Dr. Shilpa Reddy T can suggest the next interval for your child.",
+      "Newborns are usually seen more often in the early weeks. After that, well-child visits are spaced through infancy, the toddler years, and school age, and are also timed with vaccination visits. Dr. Shilpa Reddy Tummala can suggest the next interval for your child.",
   },
   {
     question: "Where is Tiny Totz Kids Clinic located?",

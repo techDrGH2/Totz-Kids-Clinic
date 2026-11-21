@@ -58,7 +58,7 @@ export const services: Service[] = [
     icon: "stethoscope",
     eyebrow: "Illness care",
     summary:
-      "Tiny Totz Kids Clinic sees children for common illnesses such as fever, cough, cold, ear pain, vomiting, and loose stools. Dr. Shilpa Reddy T assesses the child and explains what to do next.",
+      "Tiny Totz Kids Clinic sees children for common illnesses such as fever, cough, cold, ear pain, vomiting, and loose stools. Dr. Shilpa Reddy Tummala assesses the child and explains what to do next.",
     intro: [
       "Most childhood illnesses are familiar, and still unsettling when they happen in your own child. A paediatric consultation is a chance to sort out how unwell the child is and what needs attention now.",
       "Care at the clinic is based on the history you give and the examination. There is no promise of a same-day cure. Some illnesses settle with time and guidance. Others need closer follow-up.",
@@ -102,7 +102,7 @@ export const services: Service[] = [
     related: ["child-allergy-asthma", "well-child-visits", "newborn-care"],
     seoTitle: "Childhood Illness Care in Hyderabad",
     seoDescription:
-      "Paediatric consultations for fever, cough, cold, ear pain, vomiting and loose stools at Tiny Totz Kids Clinic, Hyderabad, with Dr. Shilpa Reddy T.",
+      "Paediatric consultations for fever, cough, cold, ear pain, vomiting and loose stools at Tiny Totz Kids Clinic, Hyderabad, with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/common-illness-management.webp",
       alt: "Parent checking a toddler’s forehead for fever during childhood illness care at Tiny Totz Kids Clinic in Hyderabad",
@@ -164,7 +164,7 @@ export const services: Service[] = [
     related: ["newborn-care", "well-child-visits", "common-childhood-illnesses"],
     seoTitle: "Child Vaccination in Hyderabad",
     seoDescription:
-      "Child vaccination and immunisation guidance in Hyderabad at Tiny Totz Kids Clinic. Schedules are advised for the child’s age and health with Dr. Shilpa Reddy T.",
+      "Child vaccination and immunisation guidance in Hyderabad at Tiny Totz Kids Clinic. Schedules are advised for the child’s age and health with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/child-vaccination.webp",
       alt: "Child receiving an arm vaccination during immunisation at Tiny Totz Kids Clinic in Hyderabad",
@@ -182,7 +182,7 @@ export const services: Service[] = [
     icon: "baby",
     eyebrow: "First weeks",
     summary:
-      "Tiny Totz Kids Clinic provides newborn care in Hyderabad, including checkups, feeding guidance, weight monitoring, jaundice assessment, and vaccination advice with Dr. Shilpa Reddy T.",
+      "Tiny Totz Kids Clinic provides newborn care in Hyderabad, including checkups, feeding guidance, weight monitoring, jaundice assessment, and vaccination advice with Dr. Shilpa Reddy Tummala.",
     intro: [
       "The first weeks with a newborn are full of small questions that feel large. A calm paediatric visit can sort feeding, weight, skin colour, sleep, and what is expected at this age.",
       "Parents are part of the consultation. Bring notes on feeds, wet nappies, and anything that has worried you since birth. Hospital discharge papers help when you have them.",
@@ -227,7 +227,7 @@ export const services: Service[] = [
     related: ["newborn-care", "child-vaccination", "child-nutrition"],
     seoTitle: "Newborn Care in Hyderabad",
     seoDescription:
-      "Newborn checkups, feeding support, jaundice assessment and weight monitoring at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
+      "Newborn checkups, feeding support, jaundice assessment and weight monitoring at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/newborn-care.webp",
       alt: "Newborn baby resting on a soft blanket during newborn care at Tiny Totz Kids Clinic in Hyderabad",
@@ -289,7 +289,7 @@ export const services: Service[] = [
     related: ["child-nutrition", "developmental-assessment", "child-vaccination"],
     seoTitle: "Well-Child Visits in Hyderabad",
     seoDescription:
-      "Routine child health checkups in Hyderabad for growth, development and preventive care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T.",
+      "Routine child health checkups in Hyderabad for growth, development and preventive care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/well-child-visits.webp",
       alt: "Paediatrician examining a young child’s throat during a well-child visit at Tiny Totz Kids Clinic in Hyderabad",
@@ -351,7 +351,7 @@ export const services: Service[] = [
     related: ["newborn-care", "well-child-visits", "obesity-puberty"],
     seoTitle: "Child Nutrition and Growth in Hyderabad",
     seoDescription:
-      "Growth monitoring and child nutrition guidance in Hyderabad at Tiny Totz Kids Clinic. Consult Dr. Shilpa Reddy T about feeding, weight and everyday meals.",
+      "Growth monitoring and child nutrition guidance in Hyderabad at Tiny Totz Kids Clinic. Consult Dr. Shilpa Reddy Tummala about feeding, weight and everyday meals.",
     image: {
       src: "/images/services/nutrition-assessment.webp",
       alt: "Healthy baby with fresh fruits illustrating child nutrition and growth care at Tiny Totz Kids Clinic in Hyderabad",
@@ -413,7 +413,7 @@ export const services: Service[] = [
     related: ["common-childhood-illnesses", "well-child-visits", "newborn-care"],
     seoTitle: "Child Allergy and Asthma Care in Hyderabad",
     seoDescription:
-      "Paediatric care for childhood wheezing, recurrent cough and allergy concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
+      "Paediatric care for childhood wheezing, recurrent cough and allergy concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/allergies-asthma.webp",
       alt: "Young child with allergy symptoms during paediatric allergy and asthma care at Tiny Totz Kids Clinic in Hyderabad",
@@ -475,7 +475,7 @@ export const services: Service[] = [
     related: ["child-nutrition", "well-child-visits", "developmental-assessment"],
     seoTitle: "Child Weight and Puberty Concerns in Hyderabad",
     seoDescription:
-      "Respectful paediatric consultations for weight and puberty concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
+      "Respectful paediatric consultations for weight and puberty concerns at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/obesity-puberty.webp",
       alt: "Child standing on a weight scale during obesity and puberty consultation at Tiny Totz Kids Clinic in Hyderabad",
@@ -537,7 +537,7 @@ export const services: Service[] = [
     related: ["well-child-visits", "seizure-developmental-care", "newborn-care"],
     seoTitle: "Child Development Concerns in Hyderabad",
     seoDescription:
-      "Developmental discussions for speech, movement and milestones at Tiny Totz Kids Clinic in Hyderabad with paediatrician Dr. Shilpa Reddy T.",
+      "Developmental discussions for speech, movement and milestones at Tiny Totz Kids Clinic in Hyderabad with paediatrician Dr. Shilpa Reddy Tummala.",
     image: {
       src: "/images/services/developmental-concerns.webp",
       alt: "Young child with learning materials during developmental assessment at Tiny Totz Kids Clinic in Hyderabad",

@@ -27,7 +27,7 @@ export const seoKeywords = [
   "allergies and asthma child clinic Hyderabad",
   "nutrition growth clinic for children Hyderabad",
   "Tiny Totz Kids Clinic",
-  "Dr. Shilpa Reddy T",
+  "Dr. Shilpa Reddy Tummala",
   clinic.name,
 ];
 

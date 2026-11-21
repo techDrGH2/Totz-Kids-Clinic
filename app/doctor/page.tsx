@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Clock, MapPin, Phone } from "lucide-react";
 import { AppointmentCTA } from "@/components/AppointmentCTA";
@@ -14,12 +14,12 @@ import { pageMetadata } from "@/lib/seo";
 import { physicianSchema, webPageSchema } from "@/lib/schema";
 
 const title =
-  "Dr. Shilpa Reddy T - Paediatrician & Pediatric Intensivist in Hyderabad";
+  "Dr. Shilpa Reddy Tummala - Paediatrician & Pediatric Intensivist in Hyderabad";
 
 export const metadata: Metadata = pageMetadata({
   title,
   description:
-    "Dr. Shilpa Reddy T, MBBS, DNB Pediatrics, IDPCCM, is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad.",
+    "Dr. Shilpa Reddy Tummala, MBBS, DNB Pediatrics, IDPCCM, is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad.",
   path: "/doctor",
   absoluteTitle: true,
 });
@@ -32,7 +32,7 @@ export default function DoctorPage() {
           path: "/doctor",
           name: title,
           description:
-            "Professional profile of Dr. Shilpa Reddy T at Tiny Totz Kids Clinic, Hyderabad.",
+            "Professional profile of Dr. Shilpa Reddy Tummala at Tiny Totz Kids Clinic, Hyderabad.",
         })}
       />
       <JsonLd data={physicianSchema()} />

@@ -38,7 +38,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: true,
     seoTitle: "Paediatrician in Hyderabad",
     seoDescription:
-      `Tiny Totz Kids Clinic is at ${address}. Call ${phone}. Consult Dr. Shilpa Reddy T, Monday to Saturday evenings.`,
+      `Tiny Totz Kids Clinic is at ${address}. Call ${phone}. Consult Dr. Shilpa Reddy Tummala, Monday to Saturday evenings.`,
     headline: "Paediatric care in Hyderabad",
     summary:
       `Tiny Totz Kids Clinic is at ${address}. Call ${phone}.`,
@@ -53,7 +53,7 @@ export const areas: AreaPage[] = [
       {
         heading: "What families come in for",
         paragraphs: [
-          "Parents from Hyderabad book newborn checks, vaccinations, fever visits, growth reviews, and questions about cough, feeding, or development. Dr. Shilpa Reddy T is the consultant paediatrician and pediatric intensivist.",
+          "Parents from Hyderabad book newborn checks, vaccinations, fever visits, growth reviews, and questions about cough, feeding, or development. Dr. Shilpa Reddy Tummala is the consultant paediatrician and pediatric intensivist.",
           "Bring the child’s previous prescriptions and vaccination record when you have them. The visit is more useful when the history is in the room rather than remembered later.",
         ],
       },
@@ -76,7 +76,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: false,
     seoTitle: "Paediatrician for Families in Manikonda",
     seoDescription:
-      "Families in Manikonda can consult Dr. Shilpa Reddy T at Tiny Totz Kids Clinic in Hyderabad. There is no Manikonda branch. Evening hours are Monday to Saturday.",
+      "Families in Manikonda can consult Dr. Shilpa Reddy Tummala at Tiny Totz Kids Clinic in Hyderabad. There is no Manikonda branch. Evening hours are Monday to Saturday.",
     headline: "Paediatric consultations for families from Manikonda",
     summary:
       "Tiny Totz Kids Clinic does not have a branch in Manikonda. Families who live in Manikonda are seen at the Hyderabad clinic in DNS Business Hub.",
@@ -114,7 +114,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: false,
     seoTitle: "Paediatric Care for Lanco Hills Families",
     seoDescription:
-      "Parents from Lanco Hills visit Tiny Totz Kids Clinic in Hyderabad for paediatric consultations with Dr. Shilpa Reddy T. The clinic is not inside Lanco Hills.",
+      "Parents from Lanco Hills visit Tiny Totz Kids Clinic in Hyderabad for paediatric consultations with Dr. Shilpa Reddy Tummala. The clinic is not inside Lanco Hills.",
     headline: "Child healthcare for families from Lanco Hills",
     summary:
       "Tiny Totz Kids Clinic is not inside Lanco Hills. It is nearby, at DNS Business Hub in Hyderabad, and families from Lanco Hills attend that clinic.",
@@ -153,7 +153,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: false,
     seoTitle: "Paediatrician for Families near Khajaguda",
     seoDescription:
-      "Tiny Totz Kids Clinic serves families from Khajaguda at its Hyderabad clinic. There is no Khajaguda branch. Dr. Shilpa Reddy T consults on Monday to Saturday evenings.",
+      "Tiny Totz Kids Clinic serves families from Khajaguda at its Hyderabad clinic. There is no Khajaguda branch. Dr. Shilpa Reddy Tummala consults on Monday to Saturday evenings.",
     headline: "Paediatric visits for families from Khajaguda",
     summary:
       "There is no Tiny Totz Kids Clinic in Khajaguda. Families from Khajaguda are welcome at the Hyderabad clinic, a short local journey to DNS Business Hub.",
@@ -191,7 +191,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: false,
     seoTitle: "Paediatrician for Families in Narsingi",
     seoDescription:
-      "Families in Narsingi visit Dr. Shilpa Reddy T at Tiny Totz Kids Clinic in Hyderabad for child healthcare. The clinic does not have a Narsingi location.",
+      "Families in Narsingi visit Dr. Shilpa Reddy Tummala at Tiny Totz Kids Clinic in Hyderabad for child healthcare. The clinic does not have a Narsingi location.",
     headline: "Child healthcare for families from Narsingi",
     summary:
       "Tiny Totz Kids Clinic is in Hyderabad, not in Narsingi. Families from Narsingi attend the DNS Business Hub clinic for paediatric consultations.",
@@ -206,7 +206,7 @@ export const areas: AreaPage[] = [
       {
         heading: "Care once you arrive",
         paragraphs: [
-          "The consultation is with Dr. Shilpa Reddy T, consultant paediatrician and pediatric intensivist. Parents from Narsingi use the clinic for the same reasons as local families: newborn checks, vaccines, illness, allergies, growth, and development.",
+          "The consultation is with Dr. Shilpa Reddy Tummala, consultant paediatrician and pediatric intensivist. Parents from Narsingi use the clinic for the same reasons as local families: newborn checks, vaccines, illness, allergies, growth, and development.",
           "There is no second branch to choose. Booking the Hyderabad clinic is the whole process. The published hours are Monday to Saturday, 6:00 PM to 9:00 PM.",
         ],
       },
@@ -220,7 +220,7 @@ export const areas: AreaPage[] = [
       {
         question: "Where can I find a child specialist if I live in Narsingi?",
         answer:
-          "One option is Tiny Totz Kids Clinic in Hyderabad. Dr. Shilpa Reddy T provides paediatric consultations there. Call +91 7815933120 to book.",
+          "One option is Tiny Totz Kids Clinic in Hyderabad. Dr. Shilpa Reddy Tummala provides paediatric consultations there. Call +91 7815933120 to book.",
       },
     ],
   },
@@ -230,7 +230,7 @@ export const areas: AreaPage[] = [
     clinicIsHere: false,
     seoTitle: "Paediatric Care for Families from Kokapet",
     seoDescription:
-      "Parents from Kokapet can book Dr. Shilpa Reddy T at Tiny Totz Kids Clinic in Hyderabad. There is no Kokapet branch. Confirm the evening slot before travelling.",
+      "Parents from Kokapet can book Dr. Shilpa Reddy Tummala at Tiny Totz Kids Clinic in Hyderabad. There is no Kokapet branch. Confirm the evening slot before travelling.",
     headline: "Paediatric appointments for families from Kokapet",
     summary:
       "Tiny Totz Kids Clinic does not sit in Kokapet. Families from Kokapet who choose this clinic travel to Hyderabad, to DNS Business Hub, for the consultation.",
@@ -246,7 +246,7 @@ export const areas: AreaPage[] = [
         heading: "What the visit covers",
         paragraphs: [
           "The clinical work is the same as for a family next door to the clinic: assessment, explanation, and a plan when one is appropriate. Distance does not add a different set of services, and the clinic does not offer home visits as a published service.",
-          "If you are comparing clinics closer to Kokapet, that is reasonable. Parents who still prefer this clinic usually do so because they want to continue with Dr. Shilpa Reddy T. Call the clinic if you want to know whether an evening slot is realistic for your drive.",
+          "If you are comparing clinics closer to Kokapet, that is reasonable. Parents who still prefer this clinic usually do so because they want to continue with Dr. Shilpa Reddy Tummala. Call the clinic if you want to know whether an evening slot is realistic for your drive.",
         ],
       },
     ],

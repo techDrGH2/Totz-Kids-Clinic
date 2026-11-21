@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Clock, MapPin, Phone, Stethoscope } from "lucide-react";
 import { AppointmentCTA } from "@/components/AppointmentCTA";
@@ -19,7 +19,7 @@ import { services } from "@/lib/services";
 export const metadata: Metadata = pageMetadata({
   title: "About Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
   description:
-    "About Tiny Totz Kids Clinic in Hyderabad. Child-centred paediatric consultations with Dr. Shilpa Reddy T for newborns, children and adolescents.",
+    "About Tiny Totz Kids Clinic in Hyderabad. Child-centred paediatric consultations with Dr. Shilpa Reddy Tummala for newborns, children and adolescents.",
   path: "/about",
   absoluteTitle: true,
 });

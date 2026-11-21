@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+﻿import { ImageResponse } from "next/og";
 
 export const alt = "Tiny Totz Kids Clinic, paediatrician and child healthcare in Hyderabad";
 export const size = { width: 1200, height: 630 };
@@ -29,7 +29,7 @@ export default function OpenGraphImage() {
           </div>
         </div>
         <div style={{ display: "flex", fontSize: 24, color: "#d5e1e6" }}>
-          Dr. Shilpa Reddy T · MBBS, DNB Pediatrics, IDPCCM
+          Dr. Shilpa Reddy Tummala · MBBS, DNB Pediatrics, IDPCCM
         </div>
       </div>
     ),

@@ -6,8 +6,8 @@ import { clinic } from "@/lib/clinic";
  * unless the clinic has verified them.
  */
 export const doctor = {
-  name: "Dr. Shilpa Reddy T",
-  givenName: "Shilpa Reddy T",
+  name: "Dr. Shilpa Reddy Tummala",
+  givenName: "Shilpa Reddy Tummala",
   honorific: "Dr.",
   qualifications: ["MBBS", "DNB Pediatrics", "IDPCCM"],
   qualificationsInline: "MBBS, DNB Pediatrics, IDPCCM",
@@ -15,12 +15,12 @@ export const doctor = {
   image: {
     src: "/images/doctor/dr-shilpa-reddy.webp",
     fallbackSrc: "/images/doctor/dr-shilpa-reddy-paediatrician-hyderabad.svg",
-    alt: "Portrait of Dr. Shilpa Reddy T, consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad",
+    alt: "Portrait of Dr. Shilpa Reddy Tummala, consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad",
     width: 900,
     height: 1100,
   },
   experienceNote:
-    "The clinic publishes more than 12 years of paediatric experience for Dr. Shilpa Reddy T.",
+    "The clinic publishes more than 12 years of paediatric experience for Dr. Shilpa Reddy Tummala.",
   portraitCaption: `${clinic.name} · ${clinic.address.area}`,
   areasOfCare: [
     "Newborn and infant care",
@@ -33,7 +33,7 @@ export const doctor = {
     "Well-child checkups",
   ],
   biography: [
-    "Dr. Shilpa Reddy T is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
+    "Dr. Shilpa Reddy Tummala is the consultant paediatrician and pediatric intensivist at Tiny Totz Kids Clinic in Hyderabad. Her qualifications, as published by the clinic, are MBBS, DNB Pediatrics and IDPCCM.",
     "Consultations are arranged so parents can talk through what they are noticing at home. That may include feeding, sleep, fever, cough, growth, immunisation, or development. The visit stays focused on the child in the room, with time for questions.",
     "Newborn and infant care is a regular part of the practice, including feeding guidance, weight checks, and early health concerns. Preventive visits are used to look at growth and development and to plan the next checkup.",
     "When a child is unwell, the consultation covers the history, an appropriate examination, and a clear explanation of what to watch for. Parents leave with practical guidance. Outcomes depend on the child’s condition and are not guaranteed.",

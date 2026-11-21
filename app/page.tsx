@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { AppointmentCTA } from "@/components/AppointmentCTA";
@@ -23,12 +23,12 @@ import { faqSchema, homeFaqs, webPageSchema } from "@/lib/schema";
 export const metadata: Metadata = pageMetadata({
   title: "Tiny Totz Kids Clinic | Paediatrician in Hyderabad",
   description:
-    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
+    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy Tummala.",
   path: "/",
   absoluteTitle: true,
   image: "/images/doctor/hero-paediatric-care.webp",
   imageAlt:
-    "Paediatric care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy T in Hyderabad",
+    "Paediatric care at Tiny Totz Kids Clinic with Dr. Shilpa Reddy Tummala in Hyderabad",
 });
 
 export default function HomePage() {
@@ -39,7 +39,7 @@ export default function HomePage() {
           path: "/",
           name: "Paediatrician in Hyderabad | Tiny Totz Kids Clinic",
           description:
-            "Paediatric clinic in Hyderabad led by Dr. Shilpa Reddy T, offering newborn care, vaccination guidance and child health consultations.",
+            "Paediatric clinic in Hyderabad led by Dr. Shilpa Reddy Tummala, offering newborn care, vaccination guidance and child health consultations.",
         })}
       />
       <JsonLd data={faqSchema(homeFaqs())} />

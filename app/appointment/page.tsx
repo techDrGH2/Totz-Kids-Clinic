@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { AppointmentForm } from "@/components/AppointmentForm";
 import { BookAppointmentButton } from "@/components/AppointmentBooking";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -21,7 +21,7 @@ export default function AppointmentPage() {
           <Breadcrumbs items={[{ name: "Appointment", href: "/appointment" }]} />
           <h1 className="font-serif text-4xl text-navy md:text-5xl">Book an appointment</h1>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-muted">
-            Choose a date and time for a consultation with Dr. Shilpa Reddy T.
+            Choose a date and time for a consultation with Dr. Shilpa Reddy Tummala.
             You can also send a WhatsApp request to {clinic.phoneDisplay}.
           </p>
           <BookAppointmentButton eventLabel="appointment-page" className={`${btnPrimary} mt-6`}>

@@ -1,11 +1,11 @@
-import { ClinicPhoto } from "@/components/ClinicPhoto";
+﻿import { ClinicPhoto } from "@/components/ClinicPhoto";
 
 const shots = [
   {
     src: "/images/doctor/dr-shilpa-reddy.webp",
     fallbackSrc: "/images/doctor/dr-shilpa-reddy-paediatrician-hyderabad.svg",
-    alt: "Dr. Shilpa Reddy T, paediatrician at Tiny Totz Kids Clinic in Hyderabad",
-    caption: "Dr. Shilpa Reddy T",
+    alt: "Dr. Shilpa Reddy Tummala, paediatrician at Tiny Totz Kids Clinic in Hyderabad",
+    caption: "Dr. Shilpa Reddy Tummala",
     width: 800,
     height: 1000,
   },
@@ -46,7 +46,7 @@ export function Gallery({ showHeading = true }: { showHeading?: boolean }) {
               The clinic
             </h2>
             <p className="mt-4 text-base leading-7 text-muted">
-              Real photographs of Dr. Shilpa Reddy T and the consultation rooms
+              Real photographs of Dr. Shilpa Reddy Tummala and the consultation rooms
               will replace these labelled placeholders. Stock photos are not used
               in their place.
             </p>

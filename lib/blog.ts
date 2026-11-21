@@ -21,7 +21,7 @@ export type BlogPost = {
   description: string;
   category: BlogCategory;
   author: string;
-  /** Set only after Dr. Shilpa Reddy T has actually reviewed the article. */
+  /** Set only after Dr. Shilpa Reddy Tummala has actually reviewed the article. */
   medicalReview: { reviewer: string; reviewedOn: string } | null;
   publishedOn: string;
   updatedOn: string;
@@ -87,7 +87,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Preparation matters because new parents are tired. Memory of feeds, nappies, and medicine times is unreliable by evening. A short written note helps Dr. Shilpa Reddy T understand the last twenty-four hours instead of reconstructing it from half-remembered details. This article is general parent education. It does not replace an examination of your baby.",
+        text: "Preparation matters because new parents are tired. Memory of feeds, nappies, and medicine times is unreliable by evening. A short written note helps Dr. Shilpa Reddy Tummala understand the last twenty-four hours instead of reconstructing it from half-remembered details. This article is general parent education. It does not replace an examination of your baby.",
       },
       {
         type: "h2",
@@ -259,7 +259,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Parents often arrive with screenshots from school groups or older printed schedules from another clinic. Those sources can be incomplete. The right plan depends on what was already given, whether doses were delayed by illness, and whether any medical reason requires a different timing. This guide helps you prepare. It does not replace a consultation with Dr. Shilpa Reddy T.",
+        text: "Parents often arrive with screenshots from school groups or older printed schedules from another clinic. Those sources can be incomplete. The right plan depends on what was already given, whether doses were delayed by illness, and whether any medical reason requires a different timing. This guide helps you prepare. It does not replace a consultation with Dr. Shilpa Reddy Tummala.",
       },
       {
         type: "h2",
@@ -445,7 +445,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Good paediatric growth talks are respectful. Older children and adolescents hear careful language. Crash diets, public weighing jokes, and sudden food bans recommended by relatives are not safe shortcuts. Dr. Shilpa Reddy T focuses on health, not on comparing siblings in the waiting room.",
+        text: "Good paediatric growth talks are respectful. Older children and adolescents hear careful language. Crash diets, public weighing jokes, and sudden food bans recommended by relatives are not safe shortcuts. Dr. Shilpa Reddy Tummala focuses on health, not on comparing siblings in the waiting room.",
       },
       {
         type: "p",
@@ -574,7 +574,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "At Tiny Totz Kids Clinic in Hyderabad, well-child appointments are especially useful in the evening for families balancing school and work. Dr. Shilpa Reddy T uses the visit to measure, listen, and answer the questions parents save for a calmer day. This guide explains what to expect. It is not a certificate that a child will never become ill.",
+        text: "At Tiny Totz Kids Clinic in Hyderabad, well-child appointments are especially useful in the evening for families balancing school and work. Dr. Shilpa Reddy Tummala uses the visit to measure, listen, and answer the questions parents save for a calmer day. This guide explains what to expect. It is not a certificate that a child will never become ill.",
       },
       {
         type: "h2",

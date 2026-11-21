@@ -1,4 +1,4 @@
-# Clinic images
+﻿# Clinic images
 
 Do not use stock photographs of other doctors or clinics on this site.
 
@@ -9,7 +9,7 @@ Recommended width: portraits 800px, rooms and exterior 1600px. Keep the importan
 | File | Use |
 | --- | --- |
 | `public/images/tiny-totz-kids-clinic-logo.png` | Header and footer logo. Black backdrop removed so it sits on the navy bar. |
-| `public/images/doctor/dr-shilpa-reddy-paediatrician-hyderabad.webp` | Portrait of Dr. Shilpa Reddy T. Alt text is already set in `lib/doctor.ts`. |
+| `public/images/doctor/dr-shilpa-reddy-paediatrician-hyderabad.webp` | Portrait of Dr. Shilpa Reddy Tummala. Alt text is already set in `lib/doctor.ts`. |
 | `public/images/doctor/dr-shilpa-reddy-hero.png` | Transparent hero portrait composition (rounded frame + teal circle) for the homepage hero. |
 | `public/images/clinic/tiny-totz-kids-clinic-hyderabad.webp` | Exterior or entrance of the clinic at DNS Business Hub. |
 | `public/images/clinic/paediatric-consultation-room-hyderabad.webp` | Consultation room. |

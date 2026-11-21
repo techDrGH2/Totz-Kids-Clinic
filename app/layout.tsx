@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Phone } from "lucide-react";
 import { Analytics } from "@/components/Analytics";
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | Tiny Totz Kids Clinic",
   },
   description:
-    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy T.",
+    "Tiny Totz Kids Clinic provides paediatric care in Hyderabad, including newborn care, vaccinations, child health checkups, nutrition, allergies, asthma and developmental care with Dr. Shilpa Reddy Tummala.",
   applicationName: clinic.name,
   authors: [{ name: clinic.name, url: siteUrl }],
   creator: clinic.name,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     "newborn care doctor in Hyderabad",
     "kids vaccination clinic Hyderabad",
     "Tiny Totz Kids Clinic",
-    "Dr. Shilpa Reddy T",
+    "Dr. Shilpa Reddy Tummala",
     clinic.name,
   ],
   alternates: {

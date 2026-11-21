@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { AppointmentCTA } from "@/components/AppointmentCTA";
 import { BookAppointmentButton } from "@/components/AppointmentBooking";
@@ -35,7 +35,7 @@ const pageFaqs = faqs.filter((item) =>
 export const metadata: Metadata = pageMetadata({
   title: "Child Health Care in Hyderabad",
   description:
-    "Child health checkups, illness consultations and growth reviews at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy T.",
+    "Child health checkups, illness consultations and growth reviews at Tiny Totz Kids Clinic in Hyderabad with Dr. Shilpa Reddy Tummala.",
   path: "/child-health",
 });
 
